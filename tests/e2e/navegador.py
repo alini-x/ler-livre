@@ -43,18 +43,19 @@ class Navegador:
     def __init__(self, url_inicial):
         self.porta_cdp = porta_livre()
         self.perfil = tempfile.mkdtemp(prefix="pv-e2e-")
+        self.saida = os.path.join(self.perfil, "chrome.log")
         self.proc = subprocess.Popen(
-            [achar_chrome(), "--headless=new", "--no-sandbox", "--disable-gpu", f"--user-data-dir={self.perfil}",
+            [achar_chrome(), "--headless=new", "--no-sandbox", "--disable-gpu", "--disable-dev-shm-usage", f"--user-data-dir={self.perfil}",
              f"--remote-debugging-port={self.porta_cdp}", "--remote-allow-origins=*", "--window-size=390,844", "about:blank"],
-            stderr=subprocess.DEVNULL)
-        for _ in range(40):
+            stderr=open(self.saida, "w"))
+        for _ in range(120):
             try:
                 abas = json.load(urllib.request.urlopen(f"http://127.0.0.1:{self.porta_cdp}/json"))
                 break
             except OSError:
                 time.sleep(0.25)
         else:
-            sys.exit("O navegador não iniciou.")
+            sys.exit("O navegador não iniciou.\n" + open(self.saida, errors="replace").read()[-2000:])
         self.ws = websocket.create_connection(next(a for a in abas if a["type"] == "page")["webSocketDebuggerUrl"], timeout=600)
         self.n = 0
         self.erros_js, self.erros_log = [], []

@@ -4,6 +4,11 @@ Segue o formato do [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e
 
 ## [Não lançado]
 
+## [0.2.1] - 2026-11-17
+
+### Corrigido
+- O teste de ponta a ponta no CI não iniciava o Chrome no servidor do GitHub. O teste agora espera mais, usa `--disable-dev-shm-usage` e mostra o erro do Chrome; o CI também pode ser disparado manualmente.
+
 ## [0.2.0] - 2026-11-17
 
 ### Alterado
