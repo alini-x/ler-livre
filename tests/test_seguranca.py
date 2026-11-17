@@ -142,6 +142,15 @@ class TestCadeiaDeSuprimentos(unittest.TestCase):
                 with self.subTest(arquivo=p.name, acao=m.group(1)):
                     self.assertRegex(m.group(1), r"@[0-9a-f]{40}$", "fixe a ação por hash de commit")
 
+    def test_runner_com_versao_fixa(self):
+        for p in sorted((RAIZ / ".github" / "workflows").glob("*.y*ml")):
+            with self.subTest(arquivo=p.name):
+                self.assertNotIn("-latest", ler(p), "fixe a imagem do runner (ex.: ubuntu-24.04)")
+
+    def test_dependencias_dos_testes_fixadas(self):
+        for linha in (RAIZ / "tests" / "e2e" / "requirements.txt").read_text(encoding="utf-8").split():
+            self.assertRegex(linha, r"^[A-Za-z0-9_.-]+==[0-9.]+$", "fixe a versão exata")
+
     def test_workflows_com_permissoes_minimas(self):
         for p in sorted((RAIZ / ".github" / "workflows").glob("*.y*ml")):
             texto = ler(p)
@@ -157,6 +166,7 @@ class TestCadeiaDeSuprimentos(unittest.TestCase):
 
     def test_dependabot_configurado(self):
         self.assertIn("github-actions", ler(RAIZ / ".github" / "dependabot.yml"))
+        self.assertIn("pip", ler(RAIZ / ".github" / "dependabot.yml"))
 
     def test_sem_dependencias_de_execucao(self):
         for nome in ("package.json", "package-lock.json", "requirements.txt", "pyproject.toml"):
