@@ -1,8 +1,10 @@
 # Ler Livre
 
-[![CI](https://github.com/alini-x/ler-livre/actions/workflows/pages.yml/badge.svg)](https://github.com/alini-x/ler-livre/actions/workflows/pages.yml) [![Licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-blue.svg)](LICENSE)
+[![CI](https://github.com/alini-x/ler-livre/actions/workflows/pages.yml/badge.svg)](https://github.com/alini-x/ler-livre/actions/workflows/pages.yml) [![Versão](https://img.shields.io/github/v/tag/alini-x/ler-livre?label=vers%C3%A3o)](https://github.com/alini-x/ler-livre/tags) [![Licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-blue.svg)](LICENSE)
 
 **Aplicativo web gratuito para alfabetizar em português do Brasil, pelo celular, sem precisar ler para usar.**
+
+**▶ Abrir o app: [alini-x.github.io/ler-livre](https://alini-x.github.io/ler-livre/)**
 
 Ler Livre é um PWA (aplicativo web instalável) feito com HTML, CSS e JavaScript puros. Ele guia a pessoa por uma trilha silábica inspirada nas palavras geradoras de Paulo Freire: toda instrução tem voz, imagem e texto, os botões são grandes e errar nunca tem punição.
 
@@ -10,7 +12,7 @@ Ler Livre é um PWA (aplicativo web instalável) feito com HTML, CSS e JavaScrip
 
 **Sobre o nome.** *Ler* é o verbo central do projeto; *livre* tem dois sentidos que importam aqui: a liberdade e a autonomia que a leitura traz, e um app gratuito, sem anúncios nem conta.
 
-**Status:** versão 0.2.2, em desenvolvimento aberto. Testado no computador e em celular Android (Chrome); ainda **sem uso real** com quem vai aprender. Veja o [CHANGELOG](CHANGELOG.md).
+**Status:** versão 0.2.3, em desenvolvimento aberto. Testado no computador e em celular Android (Chrome); ainda **sem uso real** com quem vai aprender. Veja o [CHANGELOG](CHANGELOG.md).
 
 <p align="center">
   <img src="docs/img/home-claro.png" alt="Tela inicial com o botão Continuar, a barra de progresso e o caminho por grupos, no tema claro" width="190">
@@ -18,6 +20,12 @@ Ler Livre é um PWA (aplicativo web instalável) feito com HTML, CSS e JavaScrip
   <img src="docs/img/montar-escuro.png" alt="Atividade de montar uma palavra com sílabas e figura, no tema escuro" width="190">
   <img src="docs/img/home-escuro.png" alt="Tela inicial no tema escuro" width="190">
 </p>
+
+## Usar o app
+
+Abra **[alini-x.github.io/ler-livre](https://alini-x.github.io/ler-livre/)** no Chrome do Android e use o menu ⋮ → *Instalar app*. Depois da primeira abertura, o app funciona sem internet.
+
+Para hospedar a sua própria cópia, o GitHub Pages serve (o modo offline exige HTTPS). O fluxo `.github/workflows/pages.yml` testa e publica a cada push na `main`; o passo a passo está em [docs/publicacao.md](docs/publicacao.md).
 
 ## Para quem é
 
@@ -108,12 +116,6 @@ Variantes: `./testar.sh brave` e `./testar.sh firefox`. Sem o script, qualquer s
 O script mostra o endereço (por exemplo, `http://192.168.0.81:8000/index.html`) para abrir no Chrome do celular. Cada acesso aparece no terminal, o que confirma que o celular chegou. Como é HTTP e não HTTPS, o celular **não registra o service worker**: dá para validar telas, toque, voz, progresso e a área da mediadora, mas **não** o modo offline nem a instalação. Para isso, use o app publicado no GitHub Pages (HTTPS). Só para testes, no Chrome do Android é possível liberar o endereço em `chrome://flags/#unsafely-treat-insecure-origin-as-secure` (informe o endereço do script e reinicie o Chrome); desfaça depois.
 
 Na primeira abertura, abra o ⚙, cadastre o nome e algumas palavras aprovadas. Use "Ir para uma etapa" para ver qualquer parte da trilha.
-
-## Usar o app
-
-Abra **[alini-x.github.io/ler-livre](https://alini-x.github.io/ler-livre/)** no Chrome do Android e use o menu ⋮ → *Instalar app*. Depois da primeira abertura, o app funciona sem internet.
-
-Para hospedar a sua própria cópia, o GitHub Pages serve (o modo offline exige HTTPS). O fluxo `.github/workflows/pages.yml` testa e publica a cada push na `main`; o passo a passo está em [docs/publicacao.md](docs/publicacao.md).
 
 ## Som (voz)
 
