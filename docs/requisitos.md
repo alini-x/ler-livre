@@ -1,6 +1,6 @@
 # Requisitos
 
-**Aparelho de referência:** Motorola Edge 60 (lançado com Android 15), no Chrome. Ele atende a todos os requisitos abaixo. Nenhum teste foi feito ainda no aparelho real.
+**Aparelho de referência:** celular Android recente, no Chrome, com Android 14 ou mais e voz em português do Brasil instalada.
 
 ### Android (por causa dos emojis das figuras)
 Como a figura é o que ensina a palavra a quem não lê, um emoji que o aparelho não conhece aparece como um quadrado vazio. O app usa 266 emojis distintos; o mais novo é do **Emoji 15.0** (🪽 em ASA e 🫏 em BURRO). Quem define o que aparece é a fonte de emojis do Android, que muda com a versão do sistema (os dados de versão dos emojis vêm do `emoji-test.txt` do Unicode; a relação com o Android segue a tabela da Google e pode variar um pouco por fabricante):

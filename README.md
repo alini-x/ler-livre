@@ -10,9 +10,7 @@ Ler Livre é um PWA (aplicativo web instalável) feito com HTML, CSS e JavaScrip
 
 **Sobre o nome.** *Ler* é o verbo central do projeto; *livre* tem dois sentidos que importam aqui: a liberdade e a autonomia que a leitura traz, e um app gratuito, sem anúncios nem conta.
 
-**Status:** versão 0.1.0, em desenvolvimento aberto. Testado no computador e num celular Android (Motorola Edge 60, Chrome); ainda **sem uso real** com quem vai aprender. Veja o [CHANGELOG](CHANGELOG.md).
-
-**Usar agora:** [alini-x.github.io/ler-livre](https://alini-x.github.io/ler-livre/) (no Chrome do Android, menu ⋮ → *Instalar app*).
+**Status:** versão 0.1.0, em desenvolvimento aberto. Testado no computador e em celular Android (Chrome); ainda **sem uso real** com quem vai aprender. Veja o [CHANGELOG](CHANGELOG.md).
 
 <p align="center">
   <img src="docs/img/home-claro.png" alt="Tela inicial com o botão Continuar, a barra de progresso e o caminho por grupos, no tema claro" width="190">
@@ -111,17 +109,21 @@ O script mostra o endereço (por exemplo, `http://192.168.0.81:8000/index.html`)
 
 Na primeira abertura, abra o ⚙, cadastre o nome e algumas palavras aprovadas. Use "Ir para uma etapa" para ver qualquer parte da trilha.
 
-## Publicar
+## Usar o app
 
-O service worker (modo offline e instalação) exige HTTPS, que o GitHub Pages oferece de graça. O fluxo `.github/workflows/pages.yml` publica a cada push na `main`. Checklist e passo a passo (do repositório à instalação no celular): [docs/publicacao.md](docs/publicacao.md).
+Abra **[alini-x.github.io/ler-livre](https://alini-x.github.io/ler-livre/)** no Chrome do Android e use o menu ⋮ → *Instalar app*. Depois da primeira abertura, o app funciona sem internet.
+
+Para hospedar a sua própria cópia, o GitHub Pages serve (o modo offline exige HTTPS). O fluxo `.github/workflows/pages.yml` testa e publica a cada push na `main`; o passo a passo está em [docs/publicacao.md](docs/publicacao.md).
 
 ## Som (voz)
 
 O app usa a voz do próprio aparelho (`speechSynthesis`), sem arquivos de áudio; por isso o primeiro teste deve ser no celular de quem vai usar. Cada voz fala de um jeito (algumas soletram sílabas acentuadas), então em ⚙ → *Pronúncia de letras e sílabas* a mediadora escolhe o estilo das sílabas, ouve exemplos e ajusta item a item, só naquele aparelho. Sem voz em português, aparece um aviso amarelo; a primeira fala só sai após o primeiro toque (regra dos navegadores).
 
+**No computador Linux**, o Chromium e o Brave comuns não enxergam a voz do sistema e o app fica mudo, inclusive no site publicado. Abra o navegador com `--enable-speech-dispatcher` (o `./testar.sh` faz isso e serve também para o site local) ou use o Firefox. No Android, o Chrome usa a voz do aparelho sem configuração extra.
+
 ## Requisitos
 
-Aparelho de referência: Motorola Edge 60 (Android 15), no Chrome. As figuras (emojis) aparecem todas no **Android 14 ou mais**; o mínimo técnico é o Chrome 86; o aparelho precisa de voz em português do Brasil. Detalhes em [docs/requisitos.md](docs/requisitos.md).
+Aparelho de referência: celular Android recente, no Chrome. As figuras (emojis) aparecem todas no **Android 14 ou mais**; o mínimo técnico é o Chrome 86; o aparelho precisa de voz em português do Brasil. Detalhes em [docs/requisitos.md](docs/requisitos.md).
 
 ## Estrutura do projeto
 
@@ -146,16 +148,20 @@ testar-celular.sh                         serve o app na rede local, para testar
 
 Nenhum dado sai do aparelho, a não ser que a mediadora exporte o progresso ou importe palavras por arquivo. O app não faz chamadas externas e roda com uma política de segurança restritiva (CSP). A área da mediadora não tem senha, de propósito. Modelo de ameaças, riscos aceitos e como reportar problemas: [SECURITY.md](SECURITY.md).
 
-## Limitações e próximos passos
+## Limitações conhecidas
 
-- O app foi testado num celular Android (Motorola Edge 60, Chrome) durante o desenvolvimento; falta o uso real com quem vai aprender e em outros aparelhos.
-- A proposta pedagógica **não foi validada** por educadores nem por pesquisa, e não se apoia em estudos recentes de eficácia dos métodos (por exemplo, BRASIL, 2021). Comparar a trilha com essa literatura é um passo pendente.
+- Ainda sem uso real com quem vai aprender, e testado em poucos aparelhos. Não foi testado em iPhone/Safari.
+- A proposta pedagógica **não foi validada** por educadores nem por pesquisa, e não se apoia em estudos recentes de eficácia dos métodos (por exemplo, BRASIL, 2021).
 - A trilha é silábica, método criticado no debate sobre alfabetização por associar sons a estímulos gráficos (ANDRADE; ANDRADE; PRADO, 2017; FERREIRO; TEBEROSKY, 1985; ver também SOARES, 2016). O risco de virar treino mecânico é tratado com erro sem punição, palavras formadas pela própria pessoa e palavras da vida dela.
-- A etapa "Palavras da vida" está perto do fim da trilha (etapa 60 de 70); deve ser antecipada para partir das palavras da pessoa.
 - A voz depende do aparelho e pode soar robótica ou errar sílabas.
-- As figuras são emojis, que variam entre aparelhos; figuras próprias e fotos da pessoa ainda não são suportadas.
-- O traçar conta como feito com 60% de cobertura da letra; o limite pode precisar de ajuste.
-- O teste de ponta a ponta ainda não roda no CI.
+- As figuras são emojis, que variam entre aparelhos; figuras próprias e fotos da pessoa não são suportadas.
+
+## Próximos passos
+
+- Comparar a trilha com a literatura recente e validá-la com educadores.
+- Antecipar a etapa "Palavras da vida" (hoje a 60 de 70) para partir das palavras da pessoa.
+- Ajustar o limite do traçar (60% de cobertura da letra) com uso real.
+- Rodar o teste de ponta a ponta no CI.
 
 ## Documentação e contribuição
 
