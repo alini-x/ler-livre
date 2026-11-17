@@ -1,0 +1,26 @@
+name: Palavra, frase ou pronúncia
+description: Sugestão de vocabulário, frase curta ou correção de pronúncia.
+labels: ["conteúdo"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        As palavras do vocabulário geral precisam de **sílabas** e **figura (emoji)** e só aparecem depois que todas as suas sílabas foram ensinadas. Palavras da vida de uma pessoa **não** devem ser enviadas aqui: elas ficam só no aparelho dela.
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo
+      options: ["Palavra nova", "Frase nova", "Correção de pronúncia", "Figura inadequada ou confusa"]
+    validations:
+      required: true
+  - type: textarea
+    id: sugestao
+    attributes:
+      label: Sugestão
+      description: "Ex.: palavra CADERNO, sílabas CA-DER-NO, figura 📓. Ou: a sílaba LHA é falada errado no aparelho X."
+    validations:
+      required: true
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Por que é útil
