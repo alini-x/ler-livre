@@ -1,0 +1,93 @@
+{
+  "etapa": 39,
+  "id": "familia-dr",
+  "titulo": "FAMÍLIA DO DR",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas com {l:D} e {l:R}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🐉",
+      "texto": "DRA DRE DRI DRO DRU",
+      "subtexto": "",
+      "fala": "{s:DRA}, {s:DRE}, {s:DRI}, {s:DRO}, {s:DRU}.",
+      "instrucao": "OLHE E OUÇA: FAMÍLIA DO DR"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:DRA}.",
+      "dica": "Procure a sílaba {s:DRA}.",
+      "opcoes": [
+        "DRA",
+        "DRO",
+        "DRI"
+      ],
+      "correta": "DRA",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:DRE}.",
+      "dica": "Procure a sílaba {s:DRE}.",
+      "opcoes": [
+        "DRE",
+        "DRO",
+        "DRU"
+      ],
+      "correta": "DRE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:DRI}.",
+      "dica": "Procure a sílaba {s:DRI}.",
+      "opcoes": [
+        "DRI",
+        "DRE",
+        "DRO"
+      ],
+      "correta": "DRI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:DRO}.",
+      "dica": "Procure a sílaba {s:DRO}.",
+      "opcoes": [
+        "DRO",
+        "DRU",
+        "DRI"
+      ],
+      "correta": "DRO",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:DRU}.",
+      "dica": "Procure a sílaba {s:DRU}.",
+      "opcoes": [
+        "DRU",
+        "DRA",
+        "DRO"
+      ],
+      "correta": "DRU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "DRA",
+    "DRE",
+    "DRI",
+    "DRO",
+    "DRU"
+  ],
+  "titulo_fala": "as sílabas com {l:D} e {l:R}"
+}

@@ -1,0 +1,114 @@
+{
+  "etapa": 5,
+  "id": "alfabeto-3",
+  "titulo": "ALFABETO 3: K L M N O",
+  "icone": "🔠",
+  "fala_inicial": "Vamos conhecer as letras. Primeiro olhe e ouça cada letra. Depois toque na letra que você ouvir.",
+  "texto_inicial": "PRIMEIRO OLHE E OUÇA CADA LETRA. DEPOIS TOQUE NA LETRA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas letras.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🥝",
+      "texto": "K",
+      "subtexto": "KIWI",
+      "fala": "{l:K}, de kiwi.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🌙",
+      "texto": "L",
+      "subtexto": "LUA",
+      "fala": "{l:L}, de lua.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🍎",
+      "texto": "M",
+      "subtexto": "MAÇÃ",
+      "fala": "{l:M}, de maçã.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🚢",
+      "texto": "N",
+      "subtexto": "NAVIO",
+      "fala": "{l:N}, de navio.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🥚",
+      "texto": "O",
+      "subtexto": "OVO",
+      "fala": "{l:O}, de ovo.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:K}.",
+      "dica": "Procure a letra {l:K}.",
+      "opcoes": [
+        "K",
+        "L",
+        "N"
+      ],
+      "correta": "K",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:L}.",
+      "dica": "Procure a letra {l:L}.",
+      "opcoes": [
+        "L",
+        "O",
+        "K"
+      ],
+      "correta": "L",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:M}.",
+      "dica": "Procure a letra {l:M}.",
+      "opcoes": [
+        "M",
+        "O",
+        "K"
+      ],
+      "correta": "M",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:N}.",
+      "dica": "Procure a letra {l:N}.",
+      "opcoes": [
+        "N",
+        "O",
+        "M"
+      ],
+      "correta": "N",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:O}.",
+      "dica": "Procure a letra {l:O}.",
+      "opcoes": [
+        "O",
+        "L",
+        "K"
+      ],
+      "correta": "O",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "etapa": 42,
+  "id": "familia-pr",
+  "titulo": "FAMÍLIA DO PR",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas com {l:P} e {l:R}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🍽️",
+      "texto": "PRA PRE PRI PRO PRU",
+      "subtexto": "",
+      "fala": "{s:PRA}, {s:PRE}, {s:PRI}, {s:PRO}, {s:PRU}.",
+      "instrucao": "OLHE E OUÇA: FAMÍLIA DO PR"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:PRA}.",
+      "dica": "Procure a sílaba {s:PRA}.",
+      "opcoes": [
+        "PRA",
+        "PRI",
+        "PRO"
+      ],
+      "correta": "PRA",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:PRE}.",
+      "dica": "Procure a sílaba {s:PRE}.",
+      "opcoes": [
+        "PRE",
+        "PRU",
+        "PRA"
+      ],
+      "correta": "PRE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:PRI}.",
+      "dica": "Procure a sílaba {s:PRI}.",
+      "opcoes": [
+        "PRI",
+        "PRU",
+        "PRA"
+      ],
+      "correta": "PRI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:PRO}.",
+      "dica": "Procure a sílaba {s:PRO}.",
+      "opcoes": [
+        "PRO",
+        "PRI",
+        "PRA"
+      ],
+      "correta": "PRO",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:PRU}.",
+      "dica": "Procure a sílaba {s:PRU}.",
+      "opcoes": [
+        "PRU",
+        "PRI",
+        "PRA"
+      ],
+      "correta": "PRU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "PRA",
+    "PRE",
+    "PRI",
+    "PRO",
+    "PRU"
+  ],
+  "titulo_fala": "as sílabas com {l:P} e {l:R}"
+}

@@ -1,0 +1,93 @@
+{
+  "etapa": 38,
+  "id": "familia-cr",
+  "titulo": "FAMÍLIA DO CR",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas com {l:C} e {l:R}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🦀",
+      "texto": "CRA CRE CRI CRO CRU",
+      "subtexto": "",
+      "fala": "{s:CRA}, {s:CRE}, {s:CRI}, {s:CRO}, {s:CRU}.",
+      "instrucao": "OLHE E OUÇA: FAMÍLIA DO CR"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:CRA}.",
+      "dica": "Procure a sílaba {s:CRA}.",
+      "opcoes": [
+        "CRA",
+        "CRU",
+        "CRI"
+      ],
+      "correta": "CRA",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:CRE}.",
+      "dica": "Procure a sílaba {s:CRE}.",
+      "opcoes": [
+        "CRE",
+        "CRA",
+        "CRO"
+      ],
+      "correta": "CRE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:CRI}.",
+      "dica": "Procure a sílaba {s:CRI}.",
+      "opcoes": [
+        "CRI",
+        "CRA",
+        "CRO"
+      ],
+      "correta": "CRI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:CRO}.",
+      "dica": "Procure a sílaba {s:CRO}.",
+      "opcoes": [
+        "CRO",
+        "CRA",
+        "CRI"
+      ],
+      "correta": "CRO",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:CRU}.",
+      "dica": "Procure a sílaba {s:CRU}.",
+      "opcoes": [
+        "CRU",
+        "CRA",
+        "CRE"
+      ],
+      "correta": "CRU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "CRA",
+    "CRE",
+    "CRI",
+    "CRO",
+    "CRU"
+  ],
+  "titulo_fala": "as sílabas com {l:C} e {l:R}"
+}

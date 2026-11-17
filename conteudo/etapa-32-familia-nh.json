@@ -1,0 +1,93 @@
+{
+  "etapa": 32,
+  "id": "familia-nh",
+  "titulo": "FAMÍLIA DO NH",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender a família do {l:N} {l:H}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🐔",
+      "texto": "NHA NHE NHI NHO NHU",
+      "subtexto": "",
+      "fala": "{s:NHA}, {s:NHE}, {s:NHI}, {s:NHO}, {s:NHU}.",
+      "instrucao": "OLHE E OUÇA: FAMÍLIA DO NH"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:NHA}.",
+      "dica": "Procure a sílaba {s:NHA}.",
+      "opcoes": [
+        "NHA",
+        "NHO",
+        "NHU"
+      ],
+      "correta": "NHA",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:NHE}.",
+      "dica": "Procure a sílaba {s:NHE}.",
+      "opcoes": [
+        "NHE",
+        "NHU",
+        "NHO"
+      ],
+      "correta": "NHE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:NHI}.",
+      "dica": "Procure a sílaba {s:NHI}.",
+      "opcoes": [
+        "NHI",
+        "NHE",
+        "NHA"
+      ],
+      "correta": "NHI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:NHO}.",
+      "dica": "Procure a sílaba {s:NHO}.",
+      "opcoes": [
+        "NHO",
+        "NHE",
+        "NHA"
+      ],
+      "correta": "NHO",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:NHU}.",
+      "dica": "Procure a sílaba {s:NHU}.",
+      "opcoes": [
+        "NHU",
+        "NHO",
+        "NHI"
+      ],
+      "correta": "NHU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "NHA",
+    "NHE",
+    "NHI",
+    "NHO",
+    "NHU"
+  ],
+  "titulo_fala": "a família do {l:N} {l:H}"
+}

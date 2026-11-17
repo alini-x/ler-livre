@@ -1,0 +1,50 @@
+{
+  "etapa": 2,
+  "id": "meu-nome",
+  "titulo": "MEU NOME",
+  "icone": "🪪",
+  "fala_inicial": "Agora vamos ver o seu nome.",
+  "texto_inicial": "VAMOS TRABALHAR COM O SEU NOME. TOQUE NELE E DEPOIS MONTE COM AS LETRAS.",
+  "fala_fim": "Muito bem! Você montou o seu nome.",
+  "criterio": {
+    "concluiAoTerminar": true
+  },
+  "atividades": [
+    {
+      "tipo": "ouvir-e-tocar",
+      "fonte": "nome",
+      "fala": "Qual é o seu nome? Toque no seu nome.",
+      "dica": "Procure o seu nome.",
+      "instrucao": "TOQUE NO SEU NOME"
+    },
+    {
+      "tipo": "montar",
+      "fonte": "nome",
+      "dicas": true,
+      "fala": "Monte o seu nome. Toque nas letras, uma de cada vez, na ordem.",
+      "dica": "Tente outra letra.",
+      "instrucao": "TOQUE NAS LETRAS, NA ORDEM, PARA MONTAR O SEU NOME"
+    },
+    {
+      "tipo": "montar",
+      "fonte": "nome",
+      "dicas": false,
+      "fala": "Monte o seu nome mais uma vez.",
+      "dica": "Tente outra letra.",
+      "instrucao": "MONTE O SEU NOME DE NOVO, SEM AJUDA"
+    }
+  ],
+  "requerNome": true,
+  "distratores": [
+    "ANA",
+    "JOÃO",
+    "MARIA",
+    "PEDRO",
+    "JOSÉ",
+    "CARLA",
+    "LUCAS",
+    "ROSA",
+    "PAULO",
+    "LÚCIA"
+  ]
+}
