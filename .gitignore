@@ -1,0 +1,14 @@
+# Dados da pessoa nunca vão para o repositório
+progresso-ler-livre-*.json
+palavras-*.json
+modelo-palavras.json
+*.personal.json
+
+# Arquivos locais
+*.local.md
+CLAUDE.md
+_site/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
