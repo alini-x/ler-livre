@@ -160,7 +160,6 @@ Nenhum dado sai do aparelho, a não ser que a mediadora exporte o progresso ou i
 
 - Comparar a trilha com a literatura recente e validá-la com educadores.
 - Ajustar o limite do traçar (60% de cobertura da letra) com uso real.
-- Rodar o teste de ponta a ponta no CI.
 
 ## Documentação e contribuição
 
