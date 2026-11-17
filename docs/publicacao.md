@@ -13,7 +13,7 @@ Marque cada item antes do primeiro `git push` público.
 ## Qualidade
 - [x] `python3 -m unittest discover -s tests` verde.
 - [x] `python3 tests/e2e/run.py` verde (precisa de Chrome/Chromium e `pip install websocket-client`).
-- [x] Teste num celular Android real (Motorola Edge 60, Chrome): instalar, ouvir a voz, usar offline.
+- [x] Teste num celular Android real (Chrome): instalar, ouvir a voz, usar offline.
 - [x] Depois de publicar: selos do CI e link do app publicado no README.
 
 ## Passo a passo
