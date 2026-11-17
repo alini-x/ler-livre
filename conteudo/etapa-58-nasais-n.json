@@ -1,0 +1,93 @@
+{
+  "etapa": 58,
+  "id": "nasais-n",
+  "titulo": "SÍLABAS COM N NO FIM",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas que terminam em {l:N}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🦷",
+      "texto": "AN EN IN ON UN",
+      "subtexto": "",
+      "fala": "{s:AN}, {s:EN}, {s:IN}, {s:ON}, {s:UN}.",
+      "instrucao": "OLHE E OUÇA: SÍLABAS COM N NO FIM"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:AN}.",
+      "dica": "Procure a sílaba {s:AN}.",
+      "opcoes": [
+        "AN",
+        "ON",
+        "EN"
+      ],
+      "correta": "AN",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:EN}.",
+      "dica": "Procure a sílaba {s:EN}.",
+      "opcoes": [
+        "EN",
+        "AN",
+        "IN"
+      ],
+      "correta": "EN",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:IN}.",
+      "dica": "Procure a sílaba {s:IN}.",
+      "opcoes": [
+        "IN",
+        "UN",
+        "AN"
+      ],
+      "correta": "IN",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:ON}.",
+      "dica": "Procure a sílaba {s:ON}.",
+      "opcoes": [
+        "ON",
+        "EN",
+        "UN"
+      ],
+      "correta": "ON",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:UN}.",
+      "dica": "Procure a sílaba {s:UN}.",
+      "opcoes": [
+        "UN",
+        "ON",
+        "AN"
+      ],
+      "correta": "UN",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "AN",
+    "EN",
+    "IN",
+    "ON",
+    "UN"
+  ],
+  "titulo_fala": "as sílabas que terminam em {l:N}"
+}

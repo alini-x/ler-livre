@@ -1,0 +1,93 @@
+{
+  "etapa": 16,
+  "id": "familia-m",
+  "titulo": "FAMÍLIA DO M",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender a família do {l:M}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🍎",
+      "texto": "MA ME MI MO MU",
+      "subtexto": "",
+      "fala": "{s:MA}, {s:ME}, {s:MI}, {s:MO}, {s:MU}.",
+      "instrucao": "OLHE E OUÇA: FAMÍLIA DO M"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:MA}.",
+      "dica": "Procure a sílaba {s:MA}.",
+      "opcoes": [
+        "MA",
+        "ME",
+        "MU"
+      ],
+      "correta": "MA",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:ME}.",
+      "dica": "Procure a sílaba {s:ME}.",
+      "opcoes": [
+        "ME",
+        "MA",
+        "MU"
+      ],
+      "correta": "ME",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:MI}.",
+      "dica": "Procure a sílaba {s:MI}.",
+      "opcoes": [
+        "MI",
+        "ME",
+        "MA"
+      ],
+      "correta": "MI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:MO}.",
+      "dica": "Procure a sílaba {s:MO}.",
+      "opcoes": [
+        "MO",
+        "ME",
+        "MI"
+      ],
+      "correta": "MO",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:MU}.",
+      "dica": "Procure a sílaba {s:MU}.",
+      "opcoes": [
+        "MU",
+        "ME",
+        "MA"
+      ],
+      "correta": "MU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "MA",
+    "ME",
+    "MI",
+    "MO",
+    "MU"
+  ],
+  "titulo_fala": "a família do {l:M}"
+}

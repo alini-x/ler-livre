@@ -1,0 +1,93 @@
+{
+  "etapa": 42,
+  "id": "familia-gr",
+  "titulo": "FAMÍLIA DO GR",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas com {l:G} e {l:R}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🌱",
+      "texto": "GRA GRE GRI GRO GRU",
+      "subtexto": "",
+      "fala": "{s:GRA}, {s:GRE}, {s:GRI}, {s:GRO}, {s:GRU}.",
+      "instrucao": "OLHE E OUÇA: FAMÍLIA DO GR"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GRA}.",
+      "dica": "Procure a sílaba {s:GRA}.",
+      "opcoes": [
+        "GRA",
+        "GRU",
+        "GRE"
+      ],
+      "correta": "GRA",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GRE}.",
+      "dica": "Procure a sílaba {s:GRE}.",
+      "opcoes": [
+        "GRE",
+        "GRU",
+        "GRA"
+      ],
+      "correta": "GRE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GRI}.",
+      "dica": "Procure a sílaba {s:GRI}.",
+      "opcoes": [
+        "GRI",
+        "GRA",
+        "GRU"
+      ],
+      "correta": "GRI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GRO}.",
+      "dica": "Procure a sílaba {s:GRO}.",
+      "opcoes": [
+        "GRO",
+        "GRA",
+        "GRI"
+      ],
+      "correta": "GRO",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GRU}.",
+      "dica": "Procure a sílaba {s:GRU}.",
+      "opcoes": [
+        "GRU",
+        "GRO",
+        "GRI"
+      ],
+      "correta": "GRU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "GRA",
+    "GRE",
+    "GRI",
+    "GRO",
+    "GRU"
+  ],
+  "titulo_fala": "as sílabas com {l:G} e {l:R}"
+}

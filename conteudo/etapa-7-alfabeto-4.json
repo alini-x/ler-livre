@@ -1,0 +1,114 @@
+{
+  "etapa": 7,
+  "id": "alfabeto-4",
+  "titulo": "ALFABETO 4: P Q R S T",
+  "icone": "🔠",
+  "fala_inicial": "Vamos conhecer as letras. Primeiro olhe e ouça cada letra. Depois toque na letra que você ouvir.",
+  "texto_inicial": "PRIMEIRO OLHE E OUÇA CADA LETRA. DEPOIS TOQUE NA LETRA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas letras.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🦆",
+      "texto": "P",
+      "subtexto": "PATO",
+      "fala": "{l:P}, de pato.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🧀",
+      "texto": "Q",
+      "subtexto": "QUEIJO",
+      "fala": "{l:Q}, de queijo.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🐭",
+      "texto": "R",
+      "subtexto": "RATO",
+      "fala": "{l:R}, de rato.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "☀️",
+      "texto": "S",
+      "subtexto": "SOL",
+      "fala": "{l:S}, de sol.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🐢",
+      "texto": "T",
+      "subtexto": "TARTARUGA",
+      "fala": "{l:T}, de tartaruga.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:P}.",
+      "dica": "Procure a letra {l:P}.",
+      "opcoes": [
+        "P",
+        "T",
+        "Q"
+      ],
+      "correta": "P",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:Q}.",
+      "dica": "Procure a letra {l:Q}.",
+      "opcoes": [
+        "Q",
+        "R",
+        "T"
+      ],
+      "correta": "Q",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:R}.",
+      "dica": "Procure a letra {l:R}.",
+      "opcoes": [
+        "R",
+        "S",
+        "T"
+      ],
+      "correta": "R",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:S}.",
+      "dica": "Procure a letra {l:S}.",
+      "opcoes": [
+        "S",
+        "T",
+        "P"
+      ],
+      "correta": "S",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:T}.",
+      "dica": "Procure a letra {l:T}.",
+      "opcoes": [
+        "T",
+        "Q",
+        "S"
+      ],
+      "correta": "T",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    }
+  ]
+}

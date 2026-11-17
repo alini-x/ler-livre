@@ -10,7 +10,7 @@ Ler Livre é um PWA (aplicativo web instalável) feito com HTML, CSS e JavaScrip
 
 **Sobre o nome.** *Ler* é o verbo central do projeto; *livre* tem dois sentidos que importam aqui: a liberdade e a autonomia que a leitura traz, e um app gratuito, sem anúncios nem conta.
 
-**Status:** versão 0.1.0, em desenvolvimento aberto. Testado no computador e em celular Android (Chrome); ainda **sem uso real** com quem vai aprender. Veja o [CHANGELOG](CHANGELOG.md).
+**Status:** versão 0.2.0, em desenvolvimento aberto. Testado no computador e em celular Android (Chrome); ainda **sem uso real** com quem vai aprender. Veja o [CHANGELOG](CHANGELOG.md).
 
 <p align="center">
   <img src="docs/img/home-claro.png" alt="Tela inicial com o botão Continuar, a barra de progresso e o caminho por grupos, no tema claro" width="190">
@@ -80,7 +80,7 @@ SOARES, Magda. *Alfabetização: a questão dos métodos*. São Paulo: Contexto,
 
 ## O que o app faz
 
-- **Trilha de 70 etapas**, em 8 grupos: vogais, meu nome, alfabeto, sílabas, montar palavras, palavras da vida, frases e ler e escrever. As sílabas vão de B, C, D... até CH, LH, NH, RR, Ç, encontros (BR, PL...), ditongos, finais (R, L, S, M, N) e til.
+- **Trilha de 71 etapas**, em 8 grupos: vogais, meu nome, palavras da vida, alfabeto, sílabas, montar palavras, frases e ler e escrever. As palavras da vida (as da própria pessoa) vêm logo depois do nome. As sílabas vão de B, C, D... até CH, LH, NH, RR, Ç, encontros (BR, PL...), ditongos, finais (R, L, S, M, N) e til.
 - **Atividades**: olhar e ouvir, ouvir e tocar, montar com letras ou sílabas, ordenar frases, criar palavras novas, traçar letras com o dedo, ler em voz alta e ditado.
 - **Vocabulário escalável**: 237 palavras com sílabas e figura (emoji). Uma palavra só aparece depois que **todas as suas sílabas** foram ensinadas.
 - **Sem becos sem saída**: o botão 🏠 volta ao início em qualquer tela, o botão Voltar do Android também, e depois de várias tentativas sem acertar aparece "PULAR". Só a mediadora, com confirmação, apaga o progresso.
@@ -159,9 +159,7 @@ Nenhum dado sai do aparelho, a não ser que a mediadora exporte o progresso ou i
 ## Próximos passos
 
 - Comparar a trilha com a literatura recente e validá-la com educadores.
-- Antecipar a etapa "Palavras da vida" (hoje a 60 de 70) para partir das palavras da pessoa.
 - Ajustar o limite do traçar (60% de cobertura da letra) com uso real.
-- Rodar o teste de ponta a ponta no CI.
 
 ## Documentação e contribuição
 
