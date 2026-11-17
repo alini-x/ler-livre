@@ -4,9 +4,14 @@ Segue o formato do [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e
 
 ## [Não lançado]
 
+## [0.1.1] - 2026-11-17
+
+### Alterado
+- README: seção "Usar o app" no lugar de "Publicar", aviso sobre a voz no Linux (Chromium e Brave sem `--enable-speech-dispatcher` ficam mudos, inclusive no site publicado), limitações e próximos passos separados, sem modelo de aparelho.
+
 ## [0.1.0] - 2026-11-16
 
-Primeira versão, testada num Android (Motorola Edge 60, Chrome). Ainda sem uso real com quem vai aprender.
+Primeira versão, testada num Android (Chrome). Ainda sem uso real com quem vai aprender.
 
 ### Corrigido
 - A voz soletrava sílabas acentuadas ("gá" virava "g, a com acento agudo"), letras acentuadas isoladas ("ê") e títulos de etapa ("família do nh"). Agora a pronúncia vem de marcadores (`{l:E}`, `{s:NHE}`, `titulo_fala`) resolvidos na hora de falar, as sílabas são faladas sem acento, e cada aparelho escolhe um **estilo de pronúncia** em ⚙, com ajuste item a item.
