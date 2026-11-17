@@ -1,5 +1,5 @@
 // Service worker: guarda o app e o conteúdo geral para funcionar offline. Nunca guarda dados da pessoa.
-const VERSAO = 'ler-livre-v23';
+const VERSAO = 'ler-livre-v24';
 const BASE = [
   './', 'index.html', 'manifest.webmanifest', 'css/estilo.css',
   'js/app.js', 'js/dom.js', 'js/voz.js', 'js/db.js', 'js/mediadora.js',

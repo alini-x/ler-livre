@@ -1,0 +1,114 @@
+{
+  "etapa": 4,
+  "id": "alfabeto-1",
+  "titulo": "ALFABETO 1: A B C D E",
+  "icone": "🔠",
+  "fala_inicial": "Vamos conhecer as letras. Primeiro olhe e ouça cada letra. Depois toque na letra que você ouvir.",
+  "texto_inicial": "PRIMEIRO OLHE E OUÇA CADA LETRA. DEPOIS TOQUE NA LETRA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas letras.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🐝",
+      "texto": "A",
+      "subtexto": "ABELHA",
+      "fala": "{l:A}, de abelha.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "⚽",
+      "texto": "B",
+      "subtexto": "BOLA",
+      "fala": "{l:B}, de bola.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🏠",
+      "texto": "C",
+      "subtexto": "CASA",
+      "fala": "{l:C}, de casa.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🎲",
+      "texto": "D",
+      "subtexto": "DADO",
+      "fala": "{l:D}, de dado.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "⭐",
+      "texto": "E",
+      "subtexto": "ESTRELA",
+      "fala": "{l:E}, de estrela.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:A}.",
+      "dica": "Procure a letra {l:A}.",
+      "opcoes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correta": "A",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:B}.",
+      "dica": "Procure a letra {l:B}.",
+      "opcoes": [
+        "B",
+        "C",
+        "A"
+      ],
+      "correta": "B",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:C}.",
+      "dica": "Procure a letra {l:C}.",
+      "opcoes": [
+        "C",
+        "A",
+        "E"
+      ],
+      "correta": "C",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:D}.",
+      "dica": "Procure a letra {l:D}.",
+      "opcoes": [
+        "D",
+        "C",
+        "E"
+      ],
+      "correta": "D",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:E}.",
+      "dica": "Procure a letra {l:E}.",
+      "opcoes": [
+        "E",
+        "B",
+        "D"
+      ],
+      "correta": "E",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    }
+  ]
+}

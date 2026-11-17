@@ -1,0 +1,93 @@
+{
+  "etapa": 23,
+  "id": "familia-v",
+  "titulo": "FAMÍLIA DO V",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender a família do {l:V}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🐄",
+      "texto": "VA VE VI VO VU",
+      "subtexto": "",
+      "fala": "{s:VA}, {s:VE}, {s:VI}, {s:VO}, {s:VU}.",
+      "instrucao": "OLHE E OUÇA: FAMÍLIA DO V"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:VA}.",
+      "dica": "Procure a sílaba {s:VA}.",
+      "opcoes": [
+        "VA",
+        "VU",
+        "VI"
+      ],
+      "correta": "VA",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:VE}.",
+      "dica": "Procure a sílaba {s:VE}.",
+      "opcoes": [
+        "VE",
+        "VI",
+        "VU"
+      ],
+      "correta": "VE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:VI}.",
+      "dica": "Procure a sílaba {s:VI}.",
+      "opcoes": [
+        "VI",
+        "VA",
+        "VO"
+      ],
+      "correta": "VI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:VO}.",
+      "dica": "Procure a sílaba {s:VO}.",
+      "opcoes": [
+        "VO",
+        "VI",
+        "VE"
+      ],
+      "correta": "VO",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:VU}.",
+      "dica": "Procure a sílaba {s:VU}.",
+      "opcoes": [
+        "VU",
+        "VA",
+        "VE"
+      ],
+      "correta": "VU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "VA",
+    "VE",
+    "VI",
+    "VO",
+    "VU"
+  ],
+  "titulo_fala": "a família do {l:V}"
+}

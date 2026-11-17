@@ -1,0 +1,93 @@
+{
+  "etapa": 47,
+  "id": "familia-bl",
+  "titulo": "FAMÍLIA DO BL",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas com {l:B} e {l:L}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "👚",
+      "texto": "BLA BLE BLI BLO BLU",
+      "subtexto": "",
+      "fala": "{s:BLA}, {s:BLE}, {s:BLI}, {s:BLO}, {s:BLU}.",
+      "instrucao": "OLHE E OUÇA: FAMÍLIA DO BL"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:BLA}.",
+      "dica": "Procure a sílaba {s:BLA}.",
+      "opcoes": [
+        "BLA",
+        "BLE",
+        "BLO"
+      ],
+      "correta": "BLA",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:BLE}.",
+      "dica": "Procure a sílaba {s:BLE}.",
+      "opcoes": [
+        "BLE",
+        "BLU",
+        "BLA"
+      ],
+      "correta": "BLE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:BLI}.",
+      "dica": "Procure a sílaba {s:BLI}.",
+      "opcoes": [
+        "BLI",
+        "BLE",
+        "BLU"
+      ],
+      "correta": "BLI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:BLO}.",
+      "dica": "Procure a sílaba {s:BLO}.",
+      "opcoes": [
+        "BLO",
+        "BLI",
+        "BLU"
+      ],
+      "correta": "BLO",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:BLU}.",
+      "dica": "Procure a sílaba {s:BLU}.",
+      "opcoes": [
+        "BLU",
+        "BLA",
+        "BLI"
+      ],
+      "correta": "BLU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "BLA",
+    "BLE",
+    "BLI",
+    "BLO",
+    "BLU"
+  ],
+  "titulo_fala": "as sílabas com {l:B} e {l:L}"
+}

@@ -1,0 +1,18 @@
+{
+  "etapa": 3,
+  "id": "palavras-da-vida",
+  "titulo": "PALAVRAS DA VIDA",
+  "icone": "🏡",
+  "fala_inicial": "Agora vamos ver as palavras da sua vida. Olhe, ouça e monte com as sílabas.",
+  "texto_inicial": "OLHE, OUÇA E MONTE AS PALAVRAS DA SUA VIDA.",
+  "fala_fim": "Muito bem! Você montou as palavras da sua vida.",
+  "criterio": {
+    "concluiAoTerminar": true
+  },
+  "atividades": [
+    {
+      "fonte": "palavras-da-vida"
+    }
+  ],
+  "requerPalavras": true
+}

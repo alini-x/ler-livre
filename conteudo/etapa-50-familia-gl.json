@@ -1,0 +1,93 @@
+{
+  "etapa": 50,
+  "id": "familia-gl",
+  "titulo": "FAMÍLIA DO GL",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas com {l:G} e {l:L}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🌐",
+      "texto": "GLA GLE GLI GLO GLU",
+      "subtexto": "",
+      "fala": "{s:GLA}, {s:GLE}, {s:GLI}, {s:GLO}, {s:GLU}.",
+      "instrucao": "OLHE E OUÇA: FAMÍLIA DO GL"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GLA}.",
+      "dica": "Procure a sílaba {s:GLA}.",
+      "opcoes": [
+        "GLA",
+        "GLI",
+        "GLO"
+      ],
+      "correta": "GLA",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GLE}.",
+      "dica": "Procure a sílaba {s:GLE}.",
+      "opcoes": [
+        "GLE",
+        "GLI",
+        "GLA"
+      ],
+      "correta": "GLE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GLI}.",
+      "dica": "Procure a sílaba {s:GLI}.",
+      "opcoes": [
+        "GLI",
+        "GLA",
+        "GLO"
+      ],
+      "correta": "GLI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GLO}.",
+      "dica": "Procure a sílaba {s:GLO}.",
+      "opcoes": [
+        "GLO",
+        "GLU",
+        "GLE"
+      ],
+      "correta": "GLO",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GLU}.",
+      "dica": "Procure a sílaba {s:GLU}.",
+      "opcoes": [
+        "GLU",
+        "GLO",
+        "GLA"
+      ],
+      "correta": "GLU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "GLA",
+    "GLE",
+    "GLI",
+    "GLO",
+    "GLU"
+  ],
+  "titulo_fala": "as sílabas com {l:G} e {l:L}"
+}

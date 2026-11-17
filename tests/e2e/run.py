@@ -108,6 +108,7 @@ PULAR_TRACAR = """(async()=>{const sl=ms=>new Promise(r=>setTimeout(r,ms));const
 PULAR_CRIAR = """(async()=>{const sl=ms=>new Promise(r=>setTimeout(r,ms));const T=()=>document.getElementById('tela');
  speechSynthesis.speak=u=>setTimeout(()=>u.onend&&u.onend(),0);
  T().querySelector('.btn-grande').click(); await sl(600);
+ const comecar=[...T().querySelectorAll('.btn-grande')].find(b=>b.textContent.includes('COMEÇAR')); if(comecar){comecar.click();await sl(600);}
  const pular=()=>[...T().querySelectorAll('.btn-grande')].find(b=>b.textContent.includes('PULAR'));
  if(!T().querySelector('.pistas')) return JSON.stringify({erro:'não abriu a atividade de criar palavras'});
  const antes=!pular()||pular().hidden;
@@ -124,7 +125,7 @@ ERRO_AO_ABRIR = """(async()=>{const sl=ms=>new Promise(r=>setTimeout(r,ms));cons
 
 FIM_DA_TRILHA = """(async()=>{const sl=ms=>new Promise(r=>setTimeout(r,ms));const T=()=>document.getElementById('tela');
  const txt=T().innerText; const db=await import('/js/db.js'); const c=await db.getConfig('concluidas');
- return JSON.stringify({parabens:txt.includes('PARABÉNS'),sem_botao_que_apaga:![...T().querySelectorAll('button')].some(b=>b.textContent.includes('DE NOVO')),progresso_intacto:(c||[]).length>=70})})()"""
+ return JSON.stringify({parabens:txt.includes('PARABÉNS'),sem_botao_que_apaga:![...T().querySelectorAll('button')].some(b=>b.textContent.includes('DE NOVO')),progresso_intacto:(c||[]).length>=71})})()"""
 
 CICLO_DE_REPETICAO = """(async()=>{const sl=ms=>new Promise(r=>setTimeout(r,ms));const T=()=>document.getElementById('tela');const out={};
  speechSynthesis.speak=u=>setTimeout(()=>u.onend&&u.onend(),0);
@@ -174,7 +175,7 @@ def main():
             falhas.append(f"texto estoura o botão ou a página rola na horizontal (320 px): {estouros[:8]}")
         resumo = " ".join(log[-2:])
         print("Trilha:", resumo)
-        # O critério é o que ficou salvo: as 70 etapas concluídas e o ponteiro depois da última.
+        # O critério é o que ficou salvo: as 71 etapas concluídas e o ponteiro depois da última.
         total = len(json.load(open(RAIZ / "conteudo" / "trilha.json", encoding="utf-8"))["etapas"])
         salvo = json.loads(nav.ev("import('/js/db.js').then(async d=>JSON.stringify({c:await d.getConfig('concluidas'),e:await d.getConfig('estado')}))"))
         if len(set(salvo["c"] or [])) != total or salvo["e"]["etapa"] != total + 1:
@@ -274,7 +275,7 @@ def main():
         cenario("pular no traçar", PULAR_TRACAR, preparar=f"await d.setConfig('estado',{{etapa:{n_de('tracar-1')},indice:0,primeira:0}});")
         cenario("pular em criar palavras", PULAR_CRIAR, preparar=(
             "await d.salvarPalavra({palavra:'BOLA',silabas:'BO-LA',figura:'⚽',frase:'A bola é redonda.',fala:'',aprovada:true});"
-            f"await d.setConfig('estado',{{etapa:{n_de('palavras-da-vida')},indice:99,primeira:0}});"))
+            f"await d.setConfig('estado',{{etapa:{n_de('criar-palavras')},indice:99,primeira:0}});"))
         cenario("erro ao abrir", ERRO_AO_ABRIR)
         cenario("ciclo de repetição", CICLO_DE_REPETICAO, modo="erra")
         nav.ev(sempre % f"await d.setConfig('concluidas',{list(range(1, len(trilha_ux) + 1))});await d.setConfig('estado',{{etapa:{len(trilha_ux) + 1},indice:0,primeira:0}});")

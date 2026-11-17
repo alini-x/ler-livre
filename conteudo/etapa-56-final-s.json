@@ -1,0 +1,93 @@
+{
+  "etapa": 56,
+  "id": "final-s",
+  "titulo": "SÍLABAS COM S NO FIM",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas que terminam em {l:S}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "💐",
+      "texto": "AS ES IS OS US",
+      "subtexto": "",
+      "fala": "{s:AS}, {s:ES}, {s:IS}, {s:OS}, {s:US}.",
+      "instrucao": "OLHE E OUÇA: SÍLABAS COM S NO FIM"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:AS}.",
+      "dica": "Procure a sílaba {s:AS}.",
+      "opcoes": [
+        "AS",
+        "IS",
+        "US"
+      ],
+      "correta": "AS",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:ES}.",
+      "dica": "Procure a sílaba {s:ES}.",
+      "opcoes": [
+        "ES",
+        "IS",
+        "OS"
+      ],
+      "correta": "ES",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:IS}.",
+      "dica": "Procure a sílaba {s:IS}.",
+      "opcoes": [
+        "IS",
+        "OS",
+        "ES"
+      ],
+      "correta": "IS",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:OS}.",
+      "dica": "Procure a sílaba {s:OS}.",
+      "opcoes": [
+        "OS",
+        "ES",
+        "IS"
+      ],
+      "correta": "OS",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:US}.",
+      "dica": "Procure a sílaba {s:US}.",
+      "opcoes": [
+        "US",
+        "IS",
+        "OS"
+      ],
+      "correta": "US",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "AS",
+    "ES",
+    "IS",
+    "OS",
+    "US"
+  ],
+  "titulo_fala": "as sílabas que terminam em {l:S}"
+}
