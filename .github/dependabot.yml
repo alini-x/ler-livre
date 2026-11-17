@@ -1,4 +1,4 @@
-# Mantém as ações do GitHub (fixadas por hash) atualizadas, com correções de segurança.
+# Mantém as ações do GitHub (fixadas por hash) e a dependência dos testes e2e atualizadas, com correções de segurança.
 version: 2
 updates:
   - package-ecosystem: "github-actions"
@@ -7,3 +7,9 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: "ci"
+  - package-ecosystem: "pip"
+    directory: "/tests/e2e"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "chore(deps)"

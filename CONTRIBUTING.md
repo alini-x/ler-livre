@@ -32,7 +32,7 @@ Commits seguem [Conventional Commits](https://www.conventionalcommits.org/pt-br/
 1. `python3 -m unittest discover -s tests` passa (inclui o validador do vocabulário e as checagens de segurança).
 2. Se mudou a trilha ou o vocabulário, rode `python3 ferramentas/gerar_trilha.py` e inclua os arquivos gerados.
 3. Se mudou qualquer arquivo do app, aumente `VERSAO` em `sw.js`; se a numeração das etapas mudou, use "Zerar progresso" na área da mediadora.
-4. Teste no navegador (`./testar.sh`) e, se possível, num celular Android; opcionalmente `python3 tests/e2e/run.py`.
+4. Teste no navegador (`./testar.sh`) e, se possível, num celular Android. O teste de ponta a ponta (`python3 tests/e2e/run.py`, com `pip install -r tests/e2e/requirements.txt`) roda no CI; rode-o antes se mudou telas ou a trilha.
 5. Atualize o `CHANGELOG.md` e use o modelo de pull request.
 
 Ao participar, você concorda com o [Código de Conduta](CODE_OF_CONDUCT.md). Decisões de arquitetura estão em [docs/decisoes.md](docs/decisoes.md).
