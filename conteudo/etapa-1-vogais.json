@@ -1,0 +1,134 @@
+{
+  "etapa": 1,
+  "id": "vogais",
+  "titulo": "VOGAIS",
+  "icone": "🔤",
+  "fala_inicial": "Vamos conhecer as vogais. Ouça e toque na letra certa.",
+  "texto_inicial": "OUÇA A LETRA E TOQUE NELA. SE ERRAR, É SÓ TENTAR DE NOVO.",
+  "fala_fim": "Muito bem! Você conheceu as vogais.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:A}.",
+      "dica": "Procure a letra {l:A}.",
+      "opcoes": [
+        "A",
+        "O"
+      ],
+      "correta": "A",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:E}.",
+      "dica": "Procure a letra {l:E}.",
+      "opcoes": [
+        "E",
+        "U"
+      ],
+      "correta": "E",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:I}.",
+      "dica": "Procure a letra {l:I}.",
+      "opcoes": [
+        "I",
+        "A"
+      ],
+      "correta": "I",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:O}.",
+      "dica": "Procure a letra {l:O}.",
+      "opcoes": [
+        "O",
+        "E"
+      ],
+      "correta": "O",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:U}.",
+      "dica": "Procure a letra {l:U}.",
+      "opcoes": [
+        "U",
+        "I"
+      ],
+      "correta": "U",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "figura": "🐝",
+      "fala": "Abelha. Abelha começa com a letra {l:A}. Toque na letra {l:A}.",
+      "dica": "Abelha começa com {l:A}.",
+      "opcoes": [
+        "A",
+        "E",
+        "O"
+      ],
+      "correta": "A",
+      "instrucao": "ABELHA COMEÇA COM QUAL LETRA?"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "figura": "⭐",
+      "fala": "Estrela. Estrela começa com a letra {l:E}. Toque na letra {l:E}.",
+      "dica": "Estrela começa com {l:E}.",
+      "opcoes": [
+        "E",
+        "I",
+        "U"
+      ],
+      "correta": "E",
+      "instrucao": "ESTRELA COMEÇA COM QUAL LETRA?"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "figura": "⛪",
+      "fala": "Igreja. Igreja começa com a letra {l:I}. Toque na letra {l:I}.",
+      "dica": "Igreja começa com {l:I}.",
+      "opcoes": [
+        "I",
+        "O",
+        "A"
+      ],
+      "correta": "I",
+      "instrucao": "IGREJA COMEÇA COM QUAL LETRA?"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "figura": "🥚",
+      "fala": "Ovo. Ovo começa com a letra {l:O}. Toque na letra {l:O}.",
+      "dica": "Ovo começa com {l:O}.",
+      "opcoes": [
+        "O",
+        "U",
+        "E"
+      ],
+      "correta": "O",
+      "instrucao": "OVO COMEÇA COM QUAL LETRA?"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "figura": "🍇",
+      "fala": "Uva. Uva começa com a letra {l:U}. Toque na letra {l:U}.",
+      "dica": "Uva começa com {l:U}.",
+      "opcoes": [
+        "U",
+        "A",
+        "I"
+      ],
+      "correta": "U",
+      "instrucao": "UVA COMEÇA COM QUAL LETRA?"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "etapa": 28,
+  "id": "que-qui-gue-gui",
+  "titulo": "QUE QUI GUE GUI",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas com {l:Q} e {l:G}, com o {l:U} que não se fala. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.66
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🧀",
+      "texto": "QUE QUI GUE GUI",
+      "subtexto": "",
+      "fala": "{s:QUE}, {s:QUI}, {s:GUE}, {s:GUI}.",
+      "instrucao": "OLHE E OUÇA: QUE QUI GUE GUI"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:QUE}.",
+      "dica": "Procure a sílaba {s:QUE}.",
+      "opcoes": [
+        "QUE",
+        "QUI",
+        "GUE"
+      ],
+      "correta": "QUE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:QUI}.",
+      "dica": "Procure a sílaba {s:QUI}.",
+      "opcoes": [
+        "QUI",
+        "GUE",
+        "GUI"
+      ],
+      "correta": "QUI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GUE}.",
+      "dica": "Procure a sílaba {s:GUE}.",
+      "opcoes": [
+        "GUE",
+        "GUI",
+        "QUI"
+      ],
+      "correta": "GUE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GUI}.",
+      "dica": "Procure a sílaba {s:GUI}.",
+      "opcoes": [
+        "GUI",
+        "GUE",
+        "QUE"
+      ],
+      "correta": "GUI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "QUE",
+    "QUI",
+    "GUE",
+    "GUI"
+  ],
+  "titulo_fala": "as sílabas com {l:Q} e {l:G}, com o {l:U} que não se fala"
+}

@@ -1,0 +1,119 @@
+{
+  "etapa": 52,
+  "id": "ditongos",
+  "titulo": "DITONGOS",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas com duas vogais. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "👨",
+      "texto": "AI EI OI UI AU EU OU",
+      "subtexto": "",
+      "fala": "{s:AI}, {s:EI}, {s:OI}, {s:UI}, {s:AU}, {s:EU}, {s:OU}.",
+      "instrucao": "OLHE E OUÇA: DITONGOS"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:AI}.",
+      "dica": "Procure a sílaba {s:AI}.",
+      "opcoes": [
+        "AI",
+        "UI",
+        "OI"
+      ],
+      "correta": "AI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:EI}.",
+      "dica": "Procure a sílaba {s:EI}.",
+      "opcoes": [
+        "EI",
+        "EU",
+        "AU"
+      ],
+      "correta": "EI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:OI}.",
+      "dica": "Procure a sílaba {s:OI}.",
+      "opcoes": [
+        "OI",
+        "EI",
+        "AI"
+      ],
+      "correta": "OI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:UI}.",
+      "dica": "Procure a sílaba {s:UI}.",
+      "opcoes": [
+        "UI",
+        "EI",
+        "EU"
+      ],
+      "correta": "UI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:AU}.",
+      "dica": "Procure a sílaba {s:AU}.",
+      "opcoes": [
+        "AU",
+        "OI",
+        "AI"
+      ],
+      "correta": "AU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:EU}.",
+      "dica": "Procure a sílaba {s:EU}.",
+      "opcoes": [
+        "EU",
+        "OU",
+        "OI"
+      ],
+      "correta": "EU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:OU}.",
+      "dica": "Procure a sílaba {s:OU}.",
+      "opcoes": [
+        "OU",
+        "AI",
+        "EI"
+      ],
+      "correta": "OU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "AI",
+    "EI",
+    "OI",
+    "UI",
+    "AU",
+    "EU",
+    "OU"
+  ],
+  "titulo_fala": "as sílabas com duas vogais"
+}

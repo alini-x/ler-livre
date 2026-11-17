@@ -1,0 +1,80 @@
+{
+  "etapa": 24,
+  "id": "ce-ci-ge-gi",
+  "titulo": "CE CI GE GI",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas com {l:C} e {l:G}, que mudam de som. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.66
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🧊",
+      "texto": "CE CI GE GI",
+      "subtexto": "",
+      "fala": "{s:CE}, {s:CI}, {s:GE}, {s:GI}.",
+      "instrucao": "OLHE E OUÇA: CE CI GE GI"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:CE}.",
+      "dica": "Procure a sílaba {s:CE}.",
+      "opcoes": [
+        "CE",
+        "GI",
+        "GE"
+      ],
+      "correta": "CE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:CI}.",
+      "dica": "Procure a sílaba {s:CI}.",
+      "opcoes": [
+        "CI",
+        "GE",
+        "GI"
+      ],
+      "correta": "CI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GE}.",
+      "dica": "Procure a sílaba {s:GE}.",
+      "opcoes": [
+        "GE",
+        "GI",
+        "CE"
+      ],
+      "correta": "GE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:GI}.",
+      "dica": "Procure a sílaba {s:GI}.",
+      "opcoes": [
+        "GI",
+        "CE",
+        "CI"
+      ],
+      "correta": "GI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "CE",
+    "CI",
+    "GE",
+    "GI"
+  ],
+  "titulo_fala": "as sílabas com {l:C} e {l:G}, que mudam de som"
+}

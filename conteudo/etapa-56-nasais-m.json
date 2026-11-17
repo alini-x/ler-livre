@@ -1,0 +1,93 @@
+{
+  "etapa": 56,
+  "id": "nasais-m",
+  "titulo": "SÍLABAS COM M NO FIM",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas que terminam em {l:M}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "☁️",
+      "texto": "AM EM IM OM UM",
+      "subtexto": "",
+      "fala": "{s:AM}, {s:EM}, {s:IM}, {s:OM}, {s:UM}.",
+      "instrucao": "OLHE E OUÇA: SÍLABAS COM M NO FIM"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:AM}.",
+      "dica": "Procure a sílaba {s:AM}.",
+      "opcoes": [
+        "AM",
+        "UM",
+        "OM"
+      ],
+      "correta": "AM",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:EM}.",
+      "dica": "Procure a sílaba {s:EM}.",
+      "opcoes": [
+        "EM",
+        "AM",
+        "UM"
+      ],
+      "correta": "EM",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:IM}.",
+      "dica": "Procure a sílaba {s:IM}.",
+      "opcoes": [
+        "IM",
+        "AM",
+        "EM"
+      ],
+      "correta": "IM",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:OM}.",
+      "dica": "Procure a sílaba {s:OM}.",
+      "opcoes": [
+        "OM",
+        "IM",
+        "AM"
+      ],
+      "correta": "OM",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:UM}.",
+      "dica": "Procure a sílaba {s:UM}.",
+      "opcoes": [
+        "UM",
+        "EM",
+        "AM"
+      ],
+      "correta": "UM",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "AM",
+    "EM",
+    "IM",
+    "OM",
+    "UM"
+  ],
+  "titulo_fala": "as sílabas que terminam em {l:M}"
+}
