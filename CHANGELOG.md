@@ -4,6 +4,11 @@ Segue o formato do [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e
 
 ## [Não lançado]
 
+## [0.2.3] - 2026-11-17
+
+### Alterado
+- README: link para abrir o app no topo, seção "Usar o app" logo depois das capturas de tela e selo de versão.
+
 ## [0.2.2] - 2026-11-17
 
 ### Alterado

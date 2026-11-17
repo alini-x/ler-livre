@@ -12,7 +12,7 @@ Ler Livre é um PWA (aplicativo web instalável) feito com HTML, CSS e JavaScrip
 
 **Sobre o nome.** *Ler* é o verbo central do projeto; *livre* tem dois sentidos que importam aqui: a liberdade e a autonomia que a leitura traz, e um app gratuito, sem anúncios nem conta.
 
-**Status:** versão 0.2.2, em desenvolvimento aberto. Testado no computador e em celular Android (Chrome); ainda **sem uso real** com quem vai aprender. Veja o [CHANGELOG](CHANGELOG.md).
+**Status:** versão 0.2.3, em desenvolvimento aberto. Testado no computador e em celular Android (Chrome); ainda **sem uso real** com quem vai aprender. Veja o [CHANGELOG](CHANGELOG.md).
 
 <p align="center">
   <img src="docs/img/home-claro.png" alt="Tela inicial com o botão Continuar, a barra de progresso e o caminho por grupos, no tema claro" width="190">
