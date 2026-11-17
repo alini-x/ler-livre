@@ -5,6 +5,7 @@ Segue o formato do [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e
 ## [Não lançado]
 
 ### Alterado
+- O teste de ponta a ponta (`tests/e2e/run.py`) roda no CI e antes de cada publicação no Pages. A dependência `websocket-client` está fixada em `tests/e2e/requirements.txt`.
 - **Palavras da vida** passou a ser a 3ª etapa, logo depois de "Meu nome", para partir das palavras da pessoa (Freire). A criação de palavras novas virou a etapa **Criar palavras**, no fim das montagens. A trilha agora tem 71 etapas e a numeração mudou: ao atualizar, use "Zerar progresso" na área da mediadora (progresso de uma pessoa real deve ser exportado antes).
 
 ## [0.1.1] - 2026-11-17
