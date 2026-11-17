@@ -4,6 +4,11 @@ Segue o formato do [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e
 
 ## [Não lançado]
 
+## [0.2.2] - 2026-11-17
+
+### Alterado
+- CI: imagem do runner fixada em `ubuntu-24.04` (evita quebras quando o `ubuntu-latest` muda), deploy do Pages sem cancelamento no meio, CI cancela execuções antigas da mesma branch, e o Dependabot também atualiza a dependência dos testes e2e. Novos testes conferem o runner e a versão fixa da dependência.
+
 ## [0.2.1] - 2026-11-17
 
 ### Corrigido
