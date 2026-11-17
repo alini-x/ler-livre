@@ -1,0 +1,24 @@
+name: Feedback de uso ou pedagógico
+description: Relato de teste com quem está aprendendo, ou crítica pedagógica de educadores.
+labels: ["pedagogia"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Relatos de uso real são o que mais ajuda o projeto. **Não identifique a pessoa** (sem nome, idade exata, foto ou local). Descreva o que aconteceu, não quem é.
+  - type: textarea
+    id: observacao
+    attributes:
+      label: O que você observou
+      description: Onde houve hesitação, toque no lugar errado, instrução não entendida, cansaço, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: sugestao
+    attributes:
+      label: O que sugere mudar
+  - type: input
+    id: contexto
+    attributes:
+      label: Contexto (opcional)
+      placeholder: "Ex.: sessão de 15 minutos, no celular, sem ajuda"

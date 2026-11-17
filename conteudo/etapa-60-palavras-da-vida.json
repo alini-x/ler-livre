@@ -1,0 +1,24 @@
+{
+  "etapa": 60,
+  "id": "palavras-da-vida",
+  "titulo": "PALAVRAS DA VIDA",
+  "icone": "🏡",
+  "fala_inicial": "Agora vamos ver as palavras da sua vida. Olhe, ouça e monte com as sílabas. No fim, você cria palavras novas.",
+  "texto_inicial": "OLHE, OUÇA E MONTE AS PALAVRAS DA SUA VIDA. NO FIM, CRIE PALAVRAS NOVAS COM AS SÍLABAS.",
+  "fala_fim": "Muito bem! Você criou palavras novas.",
+  "criterio": {
+    "concluiAoTerminar": true
+  },
+  "atividades": [
+    {
+      "fonte": "palavras-da-vida"
+    },
+    {
+      "tipo": "criar-palavras",
+      "fonte": "vocabulario",
+      "fala": "Agora crie palavras novas. Olhe as figuras e toque nas sílabas para formar cada palavra. Depois toque no botão roxo.",
+      "instrucao": "TOQUE NAS SÍLABAS PARA FORMAR PALAVRAS, DEPOIS TOQUE NO ✔"
+    }
+  ],
+  "requerPalavras": true
+}

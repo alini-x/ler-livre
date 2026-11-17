@@ -1,0 +1,21 @@
+# Roda os testes em todo pull request e em pushes que não sejam na main (a main roda no fluxo de publicação).
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Testes (conteúdo, segurança e consistência)
+        run: python3 -m unittest discover -s tests -v

@@ -1,0 +1,1999 @@
+[
+  {
+    "palavra": "BOLA",
+    "silabas": [
+      "BO",
+      "LA"
+    ],
+    "figura": "⚽"
+  },
+  {
+    "palavra": "BALA",
+    "silabas": [
+      "BA",
+      "LA"
+    ],
+    "figura": "🍬"
+  },
+  {
+    "palavra": "BOCA",
+    "silabas": [
+      "BO",
+      "CA"
+    ],
+    "figura": "👄"
+  },
+  {
+    "palavra": "BOTA",
+    "silabas": [
+      "BO",
+      "TA"
+    ],
+    "figura": "🥾"
+  },
+  {
+    "palavra": "BULE",
+    "silabas": [
+      "BU",
+      "LE"
+    ],
+    "figura": "🫖"
+  },
+  {
+    "palavra": "BIFE",
+    "silabas": [
+      "BI",
+      "FE"
+    ],
+    "figura": "🥩"
+  },
+  {
+    "palavra": "BEBÊ",
+    "silabas": [
+      "BE",
+      "BÊ"
+    ],
+    "figura": "👶"
+  },
+  {
+    "palavra": "BONECA",
+    "silabas": [
+      "BO",
+      "NE",
+      "CA"
+    ],
+    "figura": "🪆"
+  },
+  {
+    "palavra": "CASA",
+    "silabas": [
+      "CA",
+      "SA"
+    ],
+    "figura": "🏠"
+  },
+  {
+    "palavra": "CAMA",
+    "silabas": [
+      "CA",
+      "MA"
+    ],
+    "figura": "🛏️"
+  },
+  {
+    "palavra": "COPO",
+    "silabas": [
+      "CO",
+      "PO"
+    ],
+    "figura": "🥛"
+  },
+  {
+    "palavra": "COLA",
+    "silabas": [
+      "CO",
+      "LA"
+    ],
+    "figura": "🧴"
+  },
+  {
+    "palavra": "CAFÉ",
+    "silabas": [
+      "CA",
+      "FÉ"
+    ],
+    "figura": "☕"
+  },
+  {
+    "palavra": "CANETA",
+    "silabas": [
+      "CA",
+      "NE",
+      "TA"
+    ],
+    "figura": "🖊️"
+  },
+  {
+    "palavra": "CAVALO",
+    "silabas": [
+      "CA",
+      "VA",
+      "LO"
+    ],
+    "figura": "🐴"
+  },
+  {
+    "palavra": "CABELO",
+    "silabas": [
+      "CA",
+      "BE",
+      "LO"
+    ],
+    "figura": "💇"
+  },
+  {
+    "palavra": "CAMISA",
+    "silabas": [
+      "CA",
+      "MI",
+      "SA"
+    ],
+    "figura": "👕"
+  },
+  {
+    "palavra": "CAMELO",
+    "silabas": [
+      "CA",
+      "ME",
+      "LO"
+    ],
+    "figura": "🐪"
+  },
+  {
+    "palavra": "DADO",
+    "silabas": [
+      "DA",
+      "DO"
+    ],
+    "figura": "🎲"
+  },
+  {
+    "palavra": "DEDO",
+    "silabas": [
+      "DE",
+      "DO"
+    ],
+    "figura": "☝️"
+  },
+  {
+    "palavra": "FACA",
+    "silabas": [
+      "FA",
+      "CA"
+    ],
+    "figura": "🔪"
+  },
+  {
+    "palavra": "FADA",
+    "silabas": [
+      "FA",
+      "DA"
+    ],
+    "figura": "🧚"
+  },
+  {
+    "palavra": "FOGO",
+    "silabas": [
+      "FO",
+      "GO"
+    ],
+    "figura": "🔥"
+  },
+  {
+    "palavra": "FOTO",
+    "silabas": [
+      "FO",
+      "TO"
+    ],
+    "figura": "📷"
+  },
+  {
+    "palavra": "FOCA",
+    "silabas": [
+      "FO",
+      "CA"
+    ],
+    "figura": "🦭"
+  },
+  {
+    "palavra": "FITA",
+    "silabas": [
+      "FI",
+      "TA"
+    ],
+    "figura": "🎞️"
+  },
+  {
+    "palavra": "GATO",
+    "silabas": [
+      "GA",
+      "TO"
+    ],
+    "figura": "🐱"
+  },
+  {
+    "palavra": "GOTA",
+    "silabas": [
+      "GO",
+      "TA"
+    ],
+    "figura": "💧"
+  },
+  {
+    "palavra": "GALO",
+    "silabas": [
+      "GA",
+      "LO"
+    ],
+    "figura": "🐓"
+  },
+  {
+    "palavra": "MAGO",
+    "silabas": [
+      "MA",
+      "GO"
+    ],
+    "figura": "🧙"
+  },
+  {
+    "palavra": "LUA",
+    "silabas": [
+      "LU",
+      "A"
+    ],
+    "figura": "🌙"
+  },
+  {
+    "palavra": "LATA",
+    "silabas": [
+      "LA",
+      "TA"
+    ],
+    "figura": "🥫"
+  },
+  {
+    "palavra": "LOBO",
+    "silabas": [
+      "LO",
+      "BO"
+    ],
+    "figura": "🐺"
+  },
+  {
+    "palavra": "LUVA",
+    "silabas": [
+      "LU",
+      "VA"
+    ],
+    "figura": "🧤"
+  },
+  {
+    "palavra": "LAGO",
+    "silabas": [
+      "LA",
+      "GO"
+    ],
+    "figura": "🏞️"
+  },
+  {
+    "palavra": "MALA",
+    "silabas": [
+      "MA",
+      "LA"
+    ],
+    "figura": "🧳"
+  },
+  {
+    "palavra": "MOTO",
+    "silabas": [
+      "MO",
+      "TO"
+    ],
+    "figura": "🏍️"
+  },
+  {
+    "palavra": "MAPA",
+    "silabas": [
+      "MA",
+      "PA"
+    ],
+    "figura": "🗺️"
+  },
+  {
+    "palavra": "MACACO",
+    "silabas": [
+      "MA",
+      "CA",
+      "CO"
+    ],
+    "figura": "🐒"
+  },
+  {
+    "palavra": "NAVIO",
+    "silabas": [
+      "NA",
+      "VI",
+      "O"
+    ],
+    "figura": "🚢"
+  },
+  {
+    "palavra": "NOTA",
+    "silabas": [
+      "NO",
+      "TA"
+    ],
+    "figura": "🎵"
+  },
+  {
+    "palavra": "PATO",
+    "silabas": [
+      "PA",
+      "TO"
+    ],
+    "figura": "🦆"
+  },
+  {
+    "palavra": "PATA",
+    "silabas": [
+      "PA",
+      "TA"
+    ],
+    "figura": "🐾"
+  },
+  {
+    "palavra": "PIPA",
+    "silabas": [
+      "PI",
+      "PA"
+    ],
+    "figura": "🪁"
+  },
+  {
+    "palavra": "PERA",
+    "silabas": [
+      "PE",
+      "RA"
+    ],
+    "figura": "🍐"
+  },
+  {
+    "palavra": "POTE",
+    "silabas": [
+      "PO",
+      "TE"
+    ],
+    "figura": "🫙"
+  },
+  {
+    "palavra": "PANELA",
+    "silabas": [
+      "PA",
+      "NE",
+      "LA"
+    ],
+    "figura": "🍳"
+  },
+  {
+    "palavra": "PIRATA",
+    "silabas": [
+      "PI",
+      "RA",
+      "TA"
+    ],
+    "figura": "🏴‍☠️"
+  },
+  {
+    "palavra": "PIANO",
+    "silabas": [
+      "PI",
+      "A",
+      "NO"
+    ],
+    "figura": "🎹"
+  },
+  {
+    "palavra": "RATO",
+    "silabas": [
+      "RA",
+      "TO"
+    ],
+    "figura": "🐭"
+  },
+  {
+    "palavra": "RODA",
+    "silabas": [
+      "RO",
+      "DA"
+    ],
+    "figura": "🛞"
+  },
+  {
+    "palavra": "ROSA",
+    "silabas": [
+      "RO",
+      "SA"
+    ],
+    "figura": "🌹"
+  },
+  {
+    "palavra": "REDE",
+    "silabas": [
+      "RE",
+      "DE"
+    ],
+    "figura": "🥅"
+  },
+  {
+    "palavra": "RAPOSA",
+    "silabas": [
+      "RA",
+      "PO",
+      "SA"
+    ],
+    "figura": "🦊"
+  },
+  {
+    "palavra": "RUA",
+    "silabas": [
+      "RU",
+      "A"
+    ],
+    "figura": "🛣️"
+  },
+  {
+    "palavra": "SAPO",
+    "silabas": [
+      "SA",
+      "PO"
+    ],
+    "figura": "🐸"
+  },
+  {
+    "palavra": "SOPA",
+    "silabas": [
+      "SO",
+      "PA"
+    ],
+    "figura": "🍲"
+  },
+  {
+    "palavra": "SAPATO",
+    "silabas": [
+      "SA",
+      "PA",
+      "TO"
+    ],
+    "figura": "👟"
+  },
+  {
+    "palavra": "SOFÁ",
+    "silabas": [
+      "SO",
+      "FÁ"
+    ],
+    "figura": "🛋️"
+  },
+  {
+    "palavra": "SUCO",
+    "silabas": [
+      "SU",
+      "CO"
+    ],
+    "figura": "🧃"
+  },
+  {
+    "palavra": "SETA",
+    "silabas": [
+      "SE",
+      "TA"
+    ],
+    "figura": "➡️"
+  },
+  {
+    "palavra": "SINO",
+    "silabas": [
+      "SI",
+      "NO"
+    ],
+    "figura": "🔔"
+  },
+  {
+    "palavra": "SELO",
+    "silabas": [
+      "SE",
+      "LO"
+    ],
+    "figura": "📮"
+  },
+  {
+    "palavra": "SALADA",
+    "silabas": [
+      "SA",
+      "LA",
+      "DA"
+    ],
+    "figura": "🥗"
+  },
+  {
+    "palavra": "SABONETE",
+    "silabas": [
+      "SA",
+      "BO",
+      "NE",
+      "TE"
+    ],
+    "figura": "🧼"
+  },
+  {
+    "palavra": "TOMATE",
+    "silabas": [
+      "TO",
+      "MA",
+      "TE"
+    ],
+    "figura": "🍅"
+  },
+  {
+    "palavra": "TELEFONE",
+    "silabas": [
+      "TE",
+      "LE",
+      "FO",
+      "NE"
+    ],
+    "figura": "☎️"
+  },
+  {
+    "palavra": "TIJOLO",
+    "silabas": [
+      "TI",
+      "JO",
+      "LO"
+    ],
+    "figura": "🧱"
+  },
+  {
+    "palavra": "VACA",
+    "silabas": [
+      "VA",
+      "CA"
+    ],
+    "figura": "🐄"
+  },
+  {
+    "palavra": "VELA",
+    "silabas": [
+      "VE",
+      "LA"
+    ],
+    "figura": "🕯️"
+  },
+  {
+    "palavra": "VASO",
+    "silabas": [
+      "VA",
+      "SO"
+    ],
+    "figura": "🏺"
+  },
+  {
+    "palavra": "VOVÔ",
+    "silabas": [
+      "VO",
+      "VÔ"
+    ],
+    "figura": "👴"
+  },
+  {
+    "palavra": "VOVÓ",
+    "silabas": [
+      "VO",
+      "VÓ"
+    ],
+    "figura": "👵"
+  },
+  {
+    "palavra": "VIOLÃO",
+    "silabas": [
+      "VI",
+      "O",
+      "LÃO"
+    ],
+    "figura": "🪕"
+  },
+  {
+    "palavra": "UVA",
+    "silabas": [
+      "U",
+      "VA"
+    ],
+    "figura": "🍇"
+  },
+  {
+    "palavra": "OVO",
+    "silabas": [
+      "O",
+      "VO"
+    ],
+    "figura": "🥚"
+  },
+  {
+    "palavra": "AVE",
+    "silabas": [
+      "A",
+      "VE"
+    ],
+    "figura": "🐦"
+  },
+  {
+    "palavra": "ASA",
+    "silabas": [
+      "A",
+      "SA"
+    ],
+    "figura": "🪽"
+  },
+  {
+    "palavra": "ABELHA",
+    "silabas": [
+      "A",
+      "BE",
+      "LHA"
+    ],
+    "figura": "🐝"
+  },
+  {
+    "palavra": "ILHA",
+    "silabas": [
+      "I",
+      "LHA"
+    ],
+    "figura": "🏝️"
+  },
+  {
+    "palavra": "OVELHA",
+    "silabas": [
+      "O",
+      "VE",
+      "LHA"
+    ],
+    "figura": "🐑"
+  },
+  {
+    "palavra": "ORELHA",
+    "silabas": [
+      "O",
+      "RE",
+      "LHA"
+    ],
+    "figura": "👂"
+  },
+  {
+    "palavra": "ANEL",
+    "silabas": [
+      "A",
+      "NEL"
+    ],
+    "figura": "💍"
+  },
+  {
+    "palavra": "ÓCULOS",
+    "silabas": [
+      "Ó",
+      "CU",
+      "LOS"
+    ],
+    "figura": "👓"
+  },
+  {
+    "palavra": "COLAR",
+    "silabas": [
+      "CO",
+      "LAR"
+    ],
+    "figura": "📿"
+  },
+  {
+    "palavra": "LEÃO",
+    "silabas": [
+      "LE",
+      "ÃO"
+    ],
+    "figura": "🦁"
+  },
+  {
+    "palavra": "GIRAFA",
+    "silabas": [
+      "GI",
+      "RA",
+      "FA"
+    ],
+    "figura": "🦒"
+  },
+  {
+    "palavra": "CEBOLA",
+    "silabas": [
+      "CE",
+      "BO",
+      "LA"
+    ],
+    "figura": "🧅"
+  },
+  {
+    "palavra": "CIDADE",
+    "silabas": [
+      "CI",
+      "DA",
+      "DE"
+    ],
+    "figura": "🏙️"
+  },
+  {
+    "palavra": "CINEMA",
+    "silabas": [
+      "CI",
+      "NE",
+      "MA"
+    ],
+    "figura": "🎬"
+  },
+  {
+    "palavra": "CELULAR",
+    "silabas": [
+      "CE",
+      "LU",
+      "LAR"
+    ],
+    "figura": "📱"
+  },
+  {
+    "palavra": "CEREJA",
+    "silabas": [
+      "CE",
+      "RE",
+      "JA"
+    ],
+    "figura": "🍒"
+  },
+  {
+    "palavra": "DOCE",
+    "silabas": [
+      "DO",
+      "CE"
+    ],
+    "figura": "🍭"
+  },
+  {
+    "palavra": "PICOLÉ",
+    "silabas": [
+      "PI",
+      "CO",
+      "LÉ"
+    ],
+    "figura": "🍦"
+  },
+  {
+    "palavra": "SORVETE",
+    "silabas": [
+      "SOR",
+      "VE",
+      "TE"
+    ],
+    "figura": "🍨"
+  },
+  {
+    "palavra": "CENOURA",
+    "silabas": [
+      "CE",
+      "NOU",
+      "RA"
+    ],
+    "figura": "🥕"
+  },
+  {
+    "palavra": "BICICLETA",
+    "silabas": [
+      "BI",
+      "CI",
+      "CLE",
+      "TA"
+    ],
+    "figura": "🚲"
+  },
+  {
+    "palavra": "GELO",
+    "silabas": [
+      "GE",
+      "LO"
+    ],
+    "figura": "🧊"
+  },
+  {
+    "palavra": "LARANJA",
+    "silabas": [
+      "LA",
+      "RAN",
+      "JA"
+    ],
+    "figura": "🍊"
+  },
+  {
+    "palavra": "JANELA",
+    "silabas": [
+      "JA",
+      "NE",
+      "LA"
+    ],
+    "figura": "🪟"
+  },
+  {
+    "palavra": "JACARÉ",
+    "silabas": [
+      "JA",
+      "CA",
+      "RÉ"
+    ],
+    "figura": "🐊"
+  },
+  {
+    "palavra": "JOGO",
+    "silabas": [
+      "JO",
+      "GO"
+    ],
+    "figura": "🎮"
+  },
+  {
+    "palavra": "JABUTI",
+    "silabas": [
+      "JA",
+      "BU",
+      "TI"
+    ],
+    "figura": "🐢"
+  },
+  {
+    "palavra": "JIPE",
+    "silabas": [
+      "JI",
+      "PE"
+    ],
+    "figura": "🚙"
+  },
+  {
+    "palavra": "LOJA",
+    "silabas": [
+      "LO",
+      "JA"
+    ],
+    "figura": "🏪"
+  },
+  {
+    "palavra": "JARRO",
+    "silabas": [
+      "JA",
+      "RRO"
+    ],
+    "figura": "🫗"
+  },
+  {
+    "palavra": "BUZINA",
+    "silabas": [
+      "BU",
+      "ZI",
+      "NA"
+    ],
+    "figura": "📯"
+  },
+  {
+    "palavra": "COZINHA",
+    "silabas": [
+      "CO",
+      "ZI",
+      "NHA"
+    ],
+    "figura": "🍳"
+  },
+  {
+    "palavra": "ZEBRA",
+    "silabas": [
+      "ZE",
+      "BRA"
+    ],
+    "figura": "🦓"
+  },
+  {
+    "palavra": "AZUL",
+    "silabas": [
+      "A",
+      "ZUL"
+    ],
+    "figura": "🔵"
+  },
+  {
+    "palavra": "ZERO",
+    "silabas": [
+      "ZE",
+      "RO"
+    ],
+    "figura": "0️⃣"
+  },
+  {
+    "palavra": "XÍCARA",
+    "silabas": [
+      "XÍ",
+      "CA",
+      "RA"
+    ],
+    "figura": "🍵"
+  },
+  {
+    "palavra": "ABACAXI",
+    "silabas": [
+      "A",
+      "BA",
+      "CA",
+      "XI"
+    ],
+    "figura": "🍍"
+  },
+  {
+    "palavra": "LIXO",
+    "silabas": [
+      "LI",
+      "XO"
+    ],
+    "figura": "🗑️"
+  },
+  {
+    "palavra": "XALE",
+    "silabas": [
+      "XA",
+      "LE"
+    ],
+    "figura": "🧣"
+  },
+  {
+    "palavra": "FAXINA",
+    "silabas": [
+      "FA",
+      "XI",
+      "NA"
+    ],
+    "figura": "🧹"
+  },
+  {
+    "palavra": "ROXO",
+    "silabas": [
+      "RO",
+      "XO"
+    ],
+    "figura": "🟣"
+  },
+  {
+    "palavra": "CAIXA",
+    "silabas": [
+      "CAI",
+      "XA"
+    ],
+    "figura": "📦"
+  },
+  {
+    "palavra": "PEIXE",
+    "silabas": [
+      "PEI",
+      "XE"
+    ],
+    "figura": "🐟"
+  },
+  {
+    "palavra": "BRUXA",
+    "silabas": [
+      "BRU",
+      "XA"
+    ],
+    "figura": "🧙‍♀️"
+  },
+  {
+    "palavra": "PARQUE",
+    "silabas": [
+      "PAR",
+      "QUE"
+    ],
+    "figura": "🎡"
+  },
+  {
+    "palavra": "MÁQUINA",
+    "silabas": [
+      "MÁ",
+      "QUI",
+      "NA"
+    ],
+    "figura": "⚙️"
+  },
+  {
+    "palavra": "MOSQUITO",
+    "silabas": [
+      "MOS",
+      "QUI",
+      "TO"
+    ],
+    "figura": "🦟"
+  },
+  {
+    "palavra": "PERIQUITO",
+    "silabas": [
+      "PE",
+      "RI",
+      "QUI",
+      "TO"
+    ],
+    "figura": "🦜"
+  },
+  {
+    "palavra": "ESQUILO",
+    "silabas": [
+      "ES",
+      "QUI",
+      "LO"
+    ],
+    "figura": "🐿️"
+  },
+  {
+    "palavra": "QUEIJO",
+    "silabas": [
+      "QUEI",
+      "JO"
+    ],
+    "figura": "🧀"
+  },
+  {
+    "palavra": "RAQUETE",
+    "silabas": [
+      "RA",
+      "QUE",
+      "TE"
+    ],
+    "figura": "🎾"
+  },
+  {
+    "palavra": "FOGUETE",
+    "silabas": [
+      "FO",
+      "GUE",
+      "TE"
+    ],
+    "figura": "🚀"
+  },
+  {
+    "palavra": "GUITARRA",
+    "silabas": [
+      "GUI",
+      "TAR",
+      "RA"
+    ],
+    "figura": "🎸"
+  },
+  {
+    "palavra": "FORMIGA",
+    "silabas": [
+      "FOR",
+      "MI",
+      "GA"
+    ],
+    "figura": "🐜"
+  },
+  {
+    "palavra": "LAGARTO",
+    "silabas": [
+      "LA",
+      "GAR",
+      "TO"
+    ],
+    "figura": "🦎"
+  },
+  {
+    "palavra": "CHAVE",
+    "silabas": [
+      "CHA",
+      "VE"
+    ],
+    "figura": "🔑"
+  },
+  {
+    "palavra": "CHUVA",
+    "silabas": [
+      "CHU",
+      "VA"
+    ],
+    "figura": "🌧️"
+  },
+  {
+    "palavra": "CHINELO",
+    "silabas": [
+      "CHI",
+      "NE",
+      "LO"
+    ],
+    "figura": "🩴"
+  },
+  {
+    "palavra": "CHOCOLATE",
+    "silabas": [
+      "CHO",
+      "CO",
+      "LA",
+      "TE"
+    ],
+    "figura": "🍫"
+  },
+  {
+    "palavra": "BOLACHA",
+    "silabas": [
+      "BO",
+      "LA",
+      "CHA"
+    ],
+    "figura": "🍪"
+  },
+  {
+    "palavra": "MOCHILA",
+    "silabas": [
+      "MO",
+      "CHI",
+      "LA"
+    ],
+    "figura": "🎒"
+  },
+  {
+    "palavra": "CACHORRO",
+    "silabas": [
+      "CA",
+      "CHO",
+      "RRO"
+    ],
+    "figura": "🐶"
+  },
+  {
+    "palavra": "MACHADO",
+    "silabas": [
+      "MA",
+      "CHA",
+      "DO"
+    ],
+    "figura": "🪓"
+  },
+  {
+    "palavra": "LANCHE",
+    "silabas": [
+      "LAN",
+      "CHE"
+    ],
+    "figura": "🥪"
+  },
+  {
+    "palavra": "CHUVEIRO",
+    "silabas": [
+      "CHU",
+      "VEI",
+      "RO"
+    ],
+    "figura": "🚿"
+  },
+  {
+    "palavra": "CHAPÉU",
+    "silabas": [
+      "CHA",
+      "PÉU"
+    ],
+    "figura": "🎩"
+  },
+  {
+    "palavra": "FOLHA",
+    "silabas": [
+      "FO",
+      "LHA"
+    ],
+    "figura": "🍃"
+  },
+  {
+    "palavra": "MILHO",
+    "silabas": [
+      "MI",
+      "LHO"
+    ],
+    "figura": "🌽"
+  },
+  {
+    "palavra": "FILHO",
+    "silabas": [
+      "FI",
+      "LHO"
+    ],
+    "figura": "👦"
+  },
+  {
+    "palavra": "JOELHO",
+    "silabas": [
+      "JO",
+      "E",
+      "LHO"
+    ],
+    "figura": "🦵"
+  },
+  {
+    "palavra": "BILHETE",
+    "silabas": [
+      "BI",
+      "LHE",
+      "TE"
+    ],
+    "figura": "🎟️"
+  },
+  {
+    "palavra": "COLHER",
+    "silabas": [
+      "CO",
+      "LHER"
+    ],
+    "figura": "🥄"
+  },
+  {
+    "palavra": "ESPELHO",
+    "silabas": [
+      "ES",
+      "PE",
+      "LHO"
+    ],
+    "figura": "🪞"
+  },
+  {
+    "palavra": "COELHO",
+    "silabas": [
+      "CO",
+      "E",
+      "LHO"
+    ],
+    "figura": "🐰"
+  },
+  {
+    "palavra": "TELHADO",
+    "silabas": [
+      "TE",
+      "LHA",
+      "DO"
+    ],
+    "figura": "🏘️"
+  },
+  {
+    "palavra": "GALINHA",
+    "silabas": [
+      "GA",
+      "LI",
+      "NHA"
+    ],
+    "figura": "🐔"
+  },
+  {
+    "palavra": "UNHA",
+    "silabas": [
+      "U",
+      "NHA"
+    ],
+    "figura": "💅"
+  },
+  {
+    "palavra": "BANHO",
+    "silabas": [
+      "BA",
+      "NHO"
+    ],
+    "figura": "🛁"
+  },
+  {
+    "palavra": "NINHO",
+    "silabas": [
+      "NI",
+      "NHO"
+    ],
+    "figura": "🪺"
+  },
+  {
+    "palavra": "CAMINHO",
+    "silabas": [
+      "CA",
+      "MI",
+      "NHO"
+    ],
+    "figura": "🛤️"
+  },
+  {
+    "palavra": "MINHOCA",
+    "silabas": [
+      "MI",
+      "NHO",
+      "CA"
+    ],
+    "figura": "🪱"
+  },
+  {
+    "palavra": "VINHO",
+    "silabas": [
+      "VI",
+      "NHO"
+    ],
+    "figura": "🍷"
+  },
+  {
+    "palavra": "ARANHA",
+    "silabas": [
+      "A",
+      "RA",
+      "NHA"
+    ],
+    "figura": "🕷️"
+  },
+  {
+    "palavra": "SONHO",
+    "silabas": [
+      "SO",
+      "NHO"
+    ],
+    "figura": "💭"
+  },
+  {
+    "palavra": "LINHA",
+    "silabas": [
+      "LI",
+      "NHA"
+    ],
+    "figura": "🧵"
+  },
+  {
+    "palavra": "MONTANHA",
+    "silabas": [
+      "MON",
+      "TA",
+      "NHA"
+    ],
+    "figura": "⛰️"
+  },
+  {
+    "palavra": "CAMINHÃO",
+    "silabas": [
+      "CA",
+      "MI",
+      "NHÃO"
+    ],
+    "figura": "🚚"
+  },
+  {
+    "palavra": "PASSARINHO",
+    "silabas": [
+      "PAS",
+      "SA",
+      "RI",
+      "NHO"
+    ],
+    "figura": "🐤"
+  },
+  {
+    "palavra": "CARRO",
+    "silabas": [
+      "CA",
+      "RRO"
+    ],
+    "figura": "🚗"
+  },
+  {
+    "palavra": "TERRA",
+    "silabas": [
+      "TE",
+      "RRA"
+    ],
+    "figura": "🌍"
+  },
+  {
+    "palavra": "GARRAFA",
+    "silabas": [
+      "GA",
+      "RRA",
+      "FA"
+    ],
+    "figura": "🍾"
+  },
+  {
+    "palavra": "BURRO",
+    "silabas": [
+      "BU",
+      "RRO"
+    ],
+    "figura": "🫏"
+  },
+  {
+    "palavra": "SERRA",
+    "silabas": [
+      "SE",
+      "RRA"
+    ],
+    "figura": "🪚"
+  },
+  {
+    "palavra": "MACARRÃO",
+    "silabas": [
+      "MA",
+      "CAR",
+      "RÃO"
+    ],
+    "figura": "🍝"
+  },
+  {
+    "palavra": "OSSO",
+    "silabas": [
+      "O",
+      "SSO"
+    ],
+    "figura": "🦴"
+  },
+  {
+    "palavra": "PASSO",
+    "silabas": [
+      "PA",
+      "SSO"
+    ],
+    "figura": "👣"
+  },
+  {
+    "palavra": "CARROSSEL",
+    "silabas": [
+      "CAR",
+      "RO",
+      "SSEL"
+    ],
+    "figura": "🎠"
+  },
+  {
+    "palavra": "AÇAÍ",
+    "silabas": [
+      "A",
+      "ÇA",
+      "Í"
+    ],
+    "figura": "🫐"
+  },
+  {
+    "palavra": "LAÇO",
+    "silabas": [
+      "LA",
+      "ÇO"
+    ],
+    "figura": "🎀"
+  },
+  {
+    "palavra": "PEÇA",
+    "silabas": [
+      "PE",
+      "ÇA"
+    ],
+    "figura": "🧩"
+  },
+  {
+    "palavra": "AÇÚCAR",
+    "silabas": [
+      "A",
+      "ÇÚ",
+      "CAR"
+    ],
+    "figura": "🍚"
+  },
+  {
+    "palavra": "ABRAÇO",
+    "silabas": [
+      "A",
+      "BRA",
+      "ÇO"
+    ],
+    "figura": "🤗"
+  },
+  {
+    "palavra": "CORAÇÃO",
+    "silabas": [
+      "CO",
+      "RA",
+      "ÇÃO"
+    ],
+    "figura": "❤️"
+  },
+  {
+    "palavra": "BRAÇO",
+    "silabas": [
+      "BRA",
+      "ÇO"
+    ],
+    "figura": "💪"
+  },
+  {
+    "palavra": "COBRA",
+    "silabas": [
+      "CO",
+      "BRA"
+    ],
+    "figura": "🐍"
+  },
+  {
+    "palavra": "CABRA",
+    "silabas": [
+      "CA",
+      "BRA"
+    ],
+    "figura": "🐐"
+  },
+  {
+    "palavra": "LIVRO",
+    "silabas": [
+      "LI",
+      "VRO"
+    ],
+    "figura": "📖"
+  },
+  {
+    "palavra": "FRUTA",
+    "silabas": [
+      "FRU",
+      "TA"
+    ],
+    "figura": "🍎"
+  },
+  {
+    "palavra": "PRATO",
+    "silabas": [
+      "PRA",
+      "TO"
+    ],
+    "figura": "🍽️"
+  },
+  {
+    "palavra": "TRIGO",
+    "silabas": [
+      "TRI",
+      "GO"
+    ],
+    "figura": "🌾"
+  },
+  {
+    "palavra": "GRAMA",
+    "silabas": [
+      "GRA",
+      "MA"
+    ],
+    "figura": "🌱"
+  },
+  {
+    "palavra": "GRILO",
+    "silabas": [
+      "GRI",
+      "LO"
+    ],
+    "figura": "🦗"
+  },
+  {
+    "palavra": "BLUSA",
+    "silabas": [
+      "BLU",
+      "SA"
+    ],
+    "figura": "👚"
+  },
+  {
+    "palavra": "GLOBO",
+    "silabas": [
+      "GLO",
+      "BO"
+    ],
+    "figura": "🌐"
+  },
+  {
+    "palavra": "PLANTA",
+    "silabas": [
+      "PLAN",
+      "TA"
+    ],
+    "figura": "🪴"
+  },
+  {
+    "palavra": "PRESENTE",
+    "silabas": [
+      "PRE",
+      "SEN",
+      "TE"
+    ],
+    "figura": "🎁"
+  },
+  {
+    "palavra": "TRATOR",
+    "silabas": [
+      "TRA",
+      "TOR"
+    ],
+    "figura": "🚜"
+  },
+  {
+    "palavra": "TIGRE",
+    "silabas": [
+      "TI",
+      "GRE"
+    ],
+    "figura": "🐯"
+  },
+  {
+    "palavra": "IGREJA",
+    "silabas": [
+      "I",
+      "GRE",
+      "JA"
+    ],
+    "figura": "⛪"
+  },
+  {
+    "palavra": "DRAGÃO",
+    "silabas": [
+      "DRA",
+      "GÃO"
+    ],
+    "figura": "🐉"
+  },
+  {
+    "palavra": "ÁRVORE",
+    "silabas": [
+      "ÁR",
+      "VO",
+      "RE"
+    ],
+    "figura": "🌳"
+  },
+  {
+    "palavra": "FLORES",
+    "silabas": [
+      "FLO",
+      "RES"
+    ],
+    "figura": "💐"
+  },
+  {
+    "palavra": "PRAIA",
+    "silabas": [
+      "PRAI",
+      "A"
+    ],
+    "figura": "🏖️"
+  },
+  {
+    "palavra": "BANDEIRA",
+    "silabas": [
+      "BAN",
+      "DEI",
+      "RA"
+    ],
+    "figura": "🏁"
+  },
+  {
+    "palavra": "ESTRELA",
+    "silabas": [
+      "ES",
+      "TRE",
+      "LA"
+    ],
+    "figura": "⭐"
+  },
+  {
+    "palavra": "CARTA",
+    "silabas": [
+      "CAR",
+      "TA"
+    ],
+    "figura": "✉️"
+  },
+  {
+    "palavra": "PORTA",
+    "silabas": [
+      "POR",
+      "TA"
+    ],
+    "figura": "🚪"
+  },
+  {
+    "palavra": "MARTELO",
+    "silabas": [
+      "MAR",
+      "TE",
+      "LO"
+    ],
+    "figura": "🔨"
+  },
+  {
+    "palavra": "BARCO",
+    "silabas": [
+      "BAR",
+      "CO"
+    ],
+    "figura": "⛵"
+  },
+  {
+    "palavra": "ESCOLA",
+    "silabas": [
+      "ES",
+      "CO",
+      "LA"
+    ],
+    "figura": "🏫"
+  },
+  {
+    "palavra": "ESCADA",
+    "silabas": [
+      "ES",
+      "CA",
+      "DA"
+    ],
+    "figura": "🪜"
+  },
+  {
+    "palavra": "VESTIDO",
+    "silabas": [
+      "VES",
+      "TI",
+      "DO"
+    ],
+    "figura": "👗"
+  },
+  {
+    "palavra": "CASTELO",
+    "silabas": [
+      "CAS",
+      "TE",
+      "LO"
+    ],
+    "figura": "🏰"
+  },
+  {
+    "palavra": "PAPEL",
+    "silabas": [
+      "PA",
+      "PEL"
+    ],
+    "figura": "📄"
+  },
+  {
+    "palavra": "LÁPIS",
+    "silabas": [
+      "LÁ",
+      "PIS"
+    ],
+    "figura": "✏️"
+  },
+  {
+    "palavra": "CARNE",
+    "silabas": [
+      "CAR",
+      "NE"
+    ],
+    "figura": "🍖"
+  },
+  {
+    "palavra": "PAPAI",
+    "silabas": [
+      "PA",
+      "PAI"
+    ],
+    "figura": "👨"
+  },
+  {
+    "palavra": "MAMÃE",
+    "silabas": [
+      "MA",
+      "MÃE"
+    ],
+    "figura": "👩"
+  },
+  {
+    "palavra": "LEITE",
+    "silabas": [
+      "LEI",
+      "TE"
+    ],
+    "figura": "🥛"
+  },
+  {
+    "palavra": "BEIJO",
+    "silabas": [
+      "BEI",
+      "JO"
+    ],
+    "figura": "💋"
+  },
+  {
+    "palavra": "FEIJÃO",
+    "silabas": [
+      "FEI",
+      "JÃO"
+    ],
+    "figura": "🫘"
+  },
+  {
+    "palavra": "TESOURA",
+    "silabas": [
+      "TE",
+      "SOU",
+      "RA"
+    ],
+    "figura": "✂️"
+  },
+  {
+    "palavra": "CADEIRA",
+    "silabas": [
+      "CA",
+      "DEI",
+      "RA"
+    ],
+    "figura": "💺"
+  },
+  {
+    "palavra": "BALEIA",
+    "silabas": [
+      "BA",
+      "LEI",
+      "A"
+    ],
+    "figura": "🐳"
+  },
+  {
+    "palavra": "AVIÃO",
+    "silabas": [
+      "A",
+      "VI",
+      "ÃO"
+    ],
+    "figura": "✈️"
+  },
+  {
+    "palavra": "BALÃO",
+    "silabas": [
+      "BA",
+      "LÃO"
+    ],
+    "figura": "🎈"
+  },
+  {
+    "palavra": "SABÃO",
+    "silabas": [
+      "SA",
+      "BÃO"
+    ],
+    "figura": "🧴"
+  },
+  {
+    "palavra": "LIMÃO",
+    "silabas": [
+      "LI",
+      "MÃO"
+    ],
+    "figura": "🍋"
+  },
+  {
+    "palavra": "BOTÃO",
+    "silabas": [
+      "BO",
+      "TÃO"
+    ],
+    "figura": "🔘"
+  },
+  {
+    "palavra": "FOGÃO",
+    "silabas": [
+      "FO",
+      "GÃO"
+    ],
+    "figura": "🍳"
+  },
+  {
+    "palavra": "MAÇÃ",
+    "silabas": [
+      "MA",
+      "ÇÃ"
+    ],
+    "figura": "🍏"
+  },
+  {
+    "palavra": "DENTE",
+    "silabas": [
+      "DEN",
+      "TE"
+    ],
+    "figura": "🦷"
+  },
+  {
+    "palavra": "TAMBOR",
+    "silabas": [
+      "TAM",
+      "BOR"
+    ],
+    "figura": "🥁"
+  },
+  {
+    "palavra": "ONDA",
+    "silabas": [
+      "ON",
+      "DA"
+    ],
+    "figura": "🌊"
+  },
+  {
+    "palavra": "ELEFANTE",
+    "silabas": [
+      "E",
+      "LE",
+      "FAN",
+      "TE"
+    ],
+    "figura": "🐘"
+  },
+  {
+    "palavra": "NUVEM",
+    "silabas": [
+      "NU",
+      "VEM"
+    ],
+    "figura": "☁️"
+  },
+  {
+    "palavra": "BOMBA",
+    "silabas": [
+      "BOM",
+      "BA"
+    ],
+    "figura": "💣"
+  },
+  {
+    "palavra": "MANGA",
+    "silabas": [
+      "MAN",
+      "GA"
+    ],
+    "figura": "🥭"
+  },
+  {
+    "palavra": "MUNDO",
+    "silabas": [
+      "MUN",
+      "DO"
+    ],
+    "figura": "🌎"
+  },
+  {
+    "palavra": "BANANA",
+    "silabas": [
+      "BA",
+      "NA",
+      "NA"
+    ],
+    "figura": "🍌"
+  },
+  {
+    "palavra": "JARDIM",
+    "silabas": [
+      "JAR",
+      "DIM"
+    ],
+    "figura": "🌷"
+  }
+]

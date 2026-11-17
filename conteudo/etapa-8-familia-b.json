@@ -1,0 +1,93 @@
+{
+  "etapa": 8,
+  "id": "familia-b",
+  "titulo": "FAMÍLIA DO B",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender a família do {l:B}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "⚽",
+      "texto": "BA BE BI BO BU",
+      "subtexto": "",
+      "fala": "{s:BA}, {s:BE}, {s:BI}, {s:BO}, {s:BU}.",
+      "instrucao": "OLHE E OUÇA: FAMÍLIA DO B"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:BA}.",
+      "dica": "Procure a sílaba {s:BA}.",
+      "opcoes": [
+        "BA",
+        "BO",
+        "BE"
+      ],
+      "correta": "BA",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:BE}.",
+      "dica": "Procure a sílaba {s:BE}.",
+      "opcoes": [
+        "BE",
+        "BO",
+        "BA"
+      ],
+      "correta": "BE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:BI}.",
+      "dica": "Procure a sílaba {s:BI}.",
+      "opcoes": [
+        "BI",
+        "BA",
+        "BO"
+      ],
+      "correta": "BI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:BO}.",
+      "dica": "Procure a sílaba {s:BO}.",
+      "opcoes": [
+        "BO",
+        "BU",
+        "BI"
+      ],
+      "correta": "BO",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:BU}.",
+      "dica": "Procure a sílaba {s:BU}.",
+      "opcoes": [
+        "BU",
+        "BI",
+        "BO"
+      ],
+      "correta": "BU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "BA",
+    "BE",
+    "BI",
+    "BO",
+    "BU"
+  ],
+  "titulo_fala": "a família do {l:B}"
+}
