@@ -22,55 +22,64 @@
     {
       "n": 3,
       "trilha": 3,
-      "id": "alfabeto-1",
-      "titulo": "ALFABETO 1",
-      "icone": "🔠",
-      "arquivo": "conteudo/etapa-3-alfabeto-1.json",
+      "id": "palavras-da-vida",
+      "titulo": "PALAVRAS DA VIDA",
+      "icone": "🏡",
+      "arquivo": "conteudo/etapa-3-palavras-da-vida.json",
       "disponivel": true
     },
     {
       "n": 4,
-      "trilha": 3,
-      "id": "alfabeto-2",
-      "titulo": "ALFABETO 2",
+      "trilha": 4,
+      "id": "alfabeto-1",
+      "titulo": "ALFABETO 1",
       "icone": "🔠",
-      "arquivo": "conteudo/etapa-4-alfabeto-2.json",
+      "arquivo": "conteudo/etapa-4-alfabeto-1.json",
       "disponivel": true
     },
     {
       "n": 5,
-      "trilha": 3,
-      "id": "alfabeto-3",
-      "titulo": "ALFABETO 3",
+      "trilha": 4,
+      "id": "alfabeto-2",
+      "titulo": "ALFABETO 2",
       "icone": "🔠",
-      "arquivo": "conteudo/etapa-5-alfabeto-3.json",
+      "arquivo": "conteudo/etapa-5-alfabeto-2.json",
       "disponivel": true
     },
     {
       "n": 6,
-      "trilha": 3,
-      "id": "alfabeto-4",
-      "titulo": "ALFABETO 4",
+      "trilha": 4,
+      "id": "alfabeto-3",
+      "titulo": "ALFABETO 3",
       "icone": "🔠",
-      "arquivo": "conteudo/etapa-6-alfabeto-4.json",
+      "arquivo": "conteudo/etapa-6-alfabeto-3.json",
       "disponivel": true
     },
     {
       "n": 7,
-      "trilha": 3,
-      "id": "alfabeto-5",
-      "titulo": "ALFABETO 5",
+      "trilha": 4,
+      "id": "alfabeto-4",
+      "titulo": "ALFABETO 4",
       "icone": "🔠",
-      "arquivo": "conteudo/etapa-7-alfabeto-5.json",
+      "arquivo": "conteudo/etapa-7-alfabeto-4.json",
       "disponivel": true
     },
     {
       "n": 8,
       "trilha": 4,
+      "id": "alfabeto-5",
+      "titulo": "ALFABETO 5",
+      "icone": "🔠",
+      "arquivo": "conteudo/etapa-8-alfabeto-5.json",
+      "disponivel": true
+    },
+    {
+      "n": 9,
+      "trilha": 5,
       "id": "familia-b",
       "titulo": "FAMÍLIA DO B",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-8-familia-b.json",
+      "arquivo": "conteudo/etapa-9-familia-b.json",
       "disponivel": true,
       "silabas": [
         "BA",
@@ -82,12 +91,12 @@
       "titulo_fala": "a família do {l:B}"
     },
     {
-      "n": 9,
-      "trilha": 4,
+      "n": 10,
+      "trilha": 5,
       "id": "familia-c",
       "titulo": "FAMÍLIA DO C",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-9-familia-c.json",
+      "arquivo": "conteudo/etapa-10-familia-c.json",
       "disponivel": true,
       "silabas": [
         "CA",
@@ -97,12 +106,12 @@
       "titulo_fala": "a família do {l:C}"
     },
     {
-      "n": 10,
-      "trilha": 4,
+      "n": 11,
+      "trilha": 5,
       "id": "familia-d",
       "titulo": "FAMÍLIA DO D",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-10-familia-d.json",
+      "arquivo": "conteudo/etapa-11-familia-d.json",
       "disponivel": true,
       "silabas": [
         "DA",
@@ -114,12 +123,12 @@
       "titulo_fala": "a família do {l:D}"
     },
     {
-      "n": 11,
-      "trilha": 4,
+      "n": 12,
+      "trilha": 5,
       "id": "familia-f",
       "titulo": "FAMÍLIA DO F",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-11-familia-f.json",
+      "arquivo": "conteudo/etapa-12-familia-f.json",
       "disponivel": true,
       "silabas": [
         "FA",
@@ -131,22 +140,22 @@
       "titulo_fala": "a família do {l:F}"
     },
     {
-      "n": 12,
-      "trilha": 5,
+      "n": 13,
+      "trilha": 6,
       "id": "revisao-1",
       "titulo": "MONTAR PALAVRAS 1",
       "icone": "🧱",
-      "arquivo": "conteudo/etapa-12-revisao-1.json",
+      "arquivo": "conteudo/etapa-13-revisao-1.json",
       "disponivel": true,
       "desde": 1
     },
     {
-      "n": 13,
-      "trilha": 4,
+      "n": 14,
+      "trilha": 5,
       "id": "familia-g",
       "titulo": "FAMÍLIA DO G",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-13-familia-g.json",
+      "arquivo": "conteudo/etapa-14-familia-g.json",
       "disponivel": true,
       "silabas": [
         "GA",
@@ -156,12 +165,12 @@
       "titulo_fala": "a família do {l:G}"
     },
     {
-      "n": 14,
-      "trilha": 4,
+      "n": 15,
+      "trilha": 5,
       "id": "familia-l",
       "titulo": "FAMÍLIA DO L",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-14-familia-l.json",
+      "arquivo": "conteudo/etapa-15-familia-l.json",
       "disponivel": true,
       "silabas": [
         "LA",
@@ -173,12 +182,12 @@
       "titulo_fala": "a família do {l:L}"
     },
     {
-      "n": 15,
-      "trilha": 4,
+      "n": 16,
+      "trilha": 5,
       "id": "familia-m",
       "titulo": "FAMÍLIA DO M",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-15-familia-m.json",
+      "arquivo": "conteudo/etapa-16-familia-m.json",
       "disponivel": true,
       "silabas": [
         "MA",
@@ -190,12 +199,12 @@
       "titulo_fala": "a família do {l:M}"
     },
     {
-      "n": 16,
-      "trilha": 4,
+      "n": 17,
+      "trilha": 5,
       "id": "familia-n",
       "titulo": "FAMÍLIA DO N",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-16-familia-n.json",
+      "arquivo": "conteudo/etapa-17-familia-n.json",
       "disponivel": true,
       "silabas": [
         "NA",
@@ -207,22 +216,22 @@
       "titulo_fala": "a família do {l:N}"
     },
     {
-      "n": 17,
-      "trilha": 5,
+      "n": 18,
+      "trilha": 6,
       "id": "revisao-2",
       "titulo": "MONTAR PALAVRAS 2",
       "icone": "🧱",
-      "arquivo": "conteudo/etapa-17-revisao-2.json",
+      "arquivo": "conteudo/etapa-18-revisao-2.json",
       "disponivel": true,
-      "desde": 13
+      "desde": 14
     },
     {
-      "n": 18,
-      "trilha": 4,
+      "n": 19,
+      "trilha": 5,
       "id": "familia-p",
       "titulo": "FAMÍLIA DO P",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-18-familia-p.json",
+      "arquivo": "conteudo/etapa-19-familia-p.json",
       "disponivel": true,
       "silabas": [
         "PA",
@@ -234,12 +243,12 @@
       "titulo_fala": "a família do {l:P}"
     },
     {
-      "n": 19,
-      "trilha": 4,
+      "n": 20,
+      "trilha": 5,
       "id": "familia-r",
       "titulo": "FAMÍLIA DO R",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-19-familia-r.json",
+      "arquivo": "conteudo/etapa-20-familia-r.json",
       "disponivel": true,
       "silabas": [
         "RA",
@@ -251,12 +260,12 @@
       "titulo_fala": "a família do {l:R}"
     },
     {
-      "n": 20,
-      "trilha": 4,
+      "n": 21,
+      "trilha": 5,
       "id": "familia-s",
       "titulo": "FAMÍLIA DO S",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-20-familia-s.json",
+      "arquivo": "conteudo/etapa-21-familia-s.json",
       "disponivel": true,
       "silabas": [
         "SA",
@@ -268,12 +277,12 @@
       "titulo_fala": "a família do {l:S}"
     },
     {
-      "n": 21,
-      "trilha": 4,
+      "n": 22,
+      "trilha": 5,
       "id": "familia-t",
       "titulo": "FAMÍLIA DO T",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-21-familia-t.json",
+      "arquivo": "conteudo/etapa-22-familia-t.json",
       "disponivel": true,
       "silabas": [
         "TA",
@@ -285,12 +294,12 @@
       "titulo_fala": "a família do {l:T}"
     },
     {
-      "n": 22,
-      "trilha": 4,
+      "n": 23,
+      "trilha": 5,
       "id": "familia-v",
       "titulo": "FAMÍLIA DO V",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-22-familia-v.json",
+      "arquivo": "conteudo/etapa-23-familia-v.json",
       "disponivel": true,
       "silabas": [
         "VA",
@@ -302,22 +311,22 @@
       "titulo_fala": "a família do {l:V}"
     },
     {
-      "n": 23,
-      "trilha": 5,
+      "n": 24,
+      "trilha": 6,
       "id": "revisao-3",
       "titulo": "MONTAR PALAVRAS 3",
       "icone": "🧱",
-      "arquivo": "conteudo/etapa-23-revisao-3.json",
+      "arquivo": "conteudo/etapa-24-revisao-3.json",
       "disponivel": true,
-      "desde": 18
+      "desde": 19
     },
     {
-      "n": 24,
-      "trilha": 4,
+      "n": 25,
+      "trilha": 5,
       "id": "ce-ci-ge-gi",
       "titulo": "CE CI GE GI",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-24-ce-ci-ge-gi.json",
+      "arquivo": "conteudo/etapa-25-ce-ci-ge-gi.json",
       "disponivel": true,
       "silabas": [
         "CE",
@@ -328,12 +337,12 @@
       "titulo_fala": "as sílabas com {l:C} e {l:G}, que mudam de som"
     },
     {
-      "n": 25,
-      "trilha": 4,
+      "n": 26,
+      "trilha": 5,
       "id": "familia-j",
       "titulo": "FAMÍLIA DO J",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-25-familia-j.json",
+      "arquivo": "conteudo/etapa-26-familia-j.json",
       "disponivel": true,
       "silabas": [
         "JA",
@@ -345,12 +354,12 @@
       "titulo_fala": "a família do {l:J}"
     },
     {
-      "n": 26,
-      "trilha": 4,
+      "n": 27,
+      "trilha": 5,
       "id": "familia-z",
       "titulo": "FAMÍLIA DO Z",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-26-familia-z.json",
+      "arquivo": "conteudo/etapa-27-familia-z.json",
       "disponivel": true,
       "silabas": [
         "ZA",
@@ -362,12 +371,12 @@
       "titulo_fala": "a família do {l:Z}"
     },
     {
-      "n": 27,
-      "trilha": 4,
+      "n": 28,
+      "trilha": 5,
       "id": "familia-x",
       "titulo": "FAMÍLIA DO X",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-27-familia-x.json",
+      "arquivo": "conteudo/etapa-28-familia-x.json",
       "disponivel": true,
       "silabas": [
         "XA",
@@ -379,12 +388,12 @@
       "titulo_fala": "a família do {l:X}"
     },
     {
-      "n": 28,
-      "trilha": 4,
+      "n": 29,
+      "trilha": 5,
       "id": "que-qui-gue-gui",
       "titulo": "QUE QUI GUE GUI",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-28-que-qui-gue-gui.json",
+      "arquivo": "conteudo/etapa-29-que-qui-gue-gui.json",
       "disponivel": true,
       "silabas": [
         "QUE",
@@ -395,22 +404,22 @@
       "titulo_fala": "as sílabas com {l:Q} e {l:G}, com o {l:U} que não se fala"
     },
     {
-      "n": 29,
-      "trilha": 5,
+      "n": 30,
+      "trilha": 6,
       "id": "revisao-4",
       "titulo": "MONTAR PALAVRAS 4",
       "icone": "🧱",
-      "arquivo": "conteudo/etapa-29-revisao-4.json",
+      "arquivo": "conteudo/etapa-30-revisao-4.json",
       "disponivel": true,
-      "desde": 24
+      "desde": 25
     },
     {
-      "n": 30,
-      "trilha": 4,
+      "n": 31,
+      "trilha": 5,
       "id": "familia-ch",
       "titulo": "FAMÍLIA DO CH",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-30-familia-ch.json",
+      "arquivo": "conteudo/etapa-31-familia-ch.json",
       "disponivel": true,
       "silabas": [
         "CHA",
@@ -422,12 +431,12 @@
       "titulo_fala": "a família do {l:C} {l:H}"
     },
     {
-      "n": 31,
-      "trilha": 4,
+      "n": 32,
+      "trilha": 5,
       "id": "familia-lh",
       "titulo": "FAMÍLIA DO LH",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-31-familia-lh.json",
+      "arquivo": "conteudo/etapa-32-familia-lh.json",
       "disponivel": true,
       "silabas": [
         "LHA",
@@ -439,12 +448,12 @@
       "titulo_fala": "a família do {l:L} {l:H}"
     },
     {
-      "n": 32,
-      "trilha": 4,
+      "n": 33,
+      "trilha": 5,
       "id": "familia-nh",
       "titulo": "FAMÍLIA DO NH",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-32-familia-nh.json",
+      "arquivo": "conteudo/etapa-33-familia-nh.json",
       "disponivel": true,
       "silabas": [
         "NHA",
@@ -456,12 +465,12 @@
       "titulo_fala": "a família do {l:N} {l:H}"
     },
     {
-      "n": 33,
-      "trilha": 4,
+      "n": 34,
+      "trilha": 5,
       "id": "familia-rr",
       "titulo": "FAMÍLIA DO RR",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-33-familia-rr.json",
+      "arquivo": "conteudo/etapa-34-familia-rr.json",
       "disponivel": true,
       "silabas": [
         "RRA",
@@ -473,12 +482,12 @@
       "titulo_fala": "a família do {l:R} {l:R}"
     },
     {
-      "n": 34,
-      "trilha": 4,
+      "n": 35,
+      "trilha": 5,
       "id": "familia-ss",
       "titulo": "FAMÍLIA DO SS",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-34-familia-ss.json",
+      "arquivo": "conteudo/etapa-35-familia-ss.json",
       "disponivel": true,
       "silabas": [
         "SSA",
@@ -490,12 +499,12 @@
       "titulo_fala": "a família do {l:S} {l:S}"
     },
     {
-      "n": 35,
-      "trilha": 4,
+      "n": 36,
+      "trilha": 5,
       "id": "familia-cedilha",
       "titulo": "FAMÍLIA DO Ç",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-35-familia-cedilha.json",
+      "arquivo": "conteudo/etapa-36-familia-cedilha.json",
       "disponivel": true,
       "silabas": [
         "ÇA",
@@ -505,22 +514,22 @@
       "titulo_fala": "a família do {l:Ç}"
     },
     {
-      "n": 36,
-      "trilha": 5,
+      "n": 37,
+      "trilha": 6,
       "id": "revisao-5",
       "titulo": "MONTAR PALAVRAS 5",
       "icone": "🧱",
-      "arquivo": "conteudo/etapa-36-revisao-5.json",
+      "arquivo": "conteudo/etapa-37-revisao-5.json",
       "disponivel": true,
-      "desde": 30
+      "desde": 31
     },
     {
-      "n": 37,
-      "trilha": 4,
+      "n": 38,
+      "trilha": 5,
       "id": "familia-br",
       "titulo": "FAMÍLIA DO BR",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-37-familia-br.json",
+      "arquivo": "conteudo/etapa-38-familia-br.json",
       "disponivel": true,
       "silabas": [
         "BRA",
@@ -532,12 +541,12 @@
       "titulo_fala": "as sílabas com {l:B} e {l:R}"
     },
     {
-      "n": 38,
-      "trilha": 4,
+      "n": 39,
+      "trilha": 5,
       "id": "familia-cr",
       "titulo": "FAMÍLIA DO CR",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-38-familia-cr.json",
+      "arquivo": "conteudo/etapa-39-familia-cr.json",
       "disponivel": true,
       "silabas": [
         "CRA",
@@ -549,12 +558,12 @@
       "titulo_fala": "as sílabas com {l:C} e {l:R}"
     },
     {
-      "n": 39,
-      "trilha": 4,
+      "n": 40,
+      "trilha": 5,
       "id": "familia-dr",
       "titulo": "FAMÍLIA DO DR",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-39-familia-dr.json",
+      "arquivo": "conteudo/etapa-40-familia-dr.json",
       "disponivel": true,
       "silabas": [
         "DRA",
@@ -566,12 +575,12 @@
       "titulo_fala": "as sílabas com {l:D} e {l:R}"
     },
     {
-      "n": 40,
-      "trilha": 4,
+      "n": 41,
+      "trilha": 5,
       "id": "familia-fr",
       "titulo": "FAMÍLIA DO FR",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-40-familia-fr.json",
+      "arquivo": "conteudo/etapa-41-familia-fr.json",
       "disponivel": true,
       "silabas": [
         "FRA",
@@ -583,12 +592,12 @@
       "titulo_fala": "as sílabas com {l:F} e {l:R}"
     },
     {
-      "n": 41,
-      "trilha": 4,
+      "n": 42,
+      "trilha": 5,
       "id": "familia-gr",
       "titulo": "FAMÍLIA DO GR",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-41-familia-gr.json",
+      "arquivo": "conteudo/etapa-42-familia-gr.json",
       "disponivel": true,
       "silabas": [
         "GRA",
@@ -600,12 +609,12 @@
       "titulo_fala": "as sílabas com {l:G} e {l:R}"
     },
     {
-      "n": 42,
-      "trilha": 4,
+      "n": 43,
+      "trilha": 5,
       "id": "familia-pr",
       "titulo": "FAMÍLIA DO PR",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-42-familia-pr.json",
+      "arquivo": "conteudo/etapa-43-familia-pr.json",
       "disponivel": true,
       "silabas": [
         "PRA",
@@ -617,12 +626,12 @@
       "titulo_fala": "as sílabas com {l:P} e {l:R}"
     },
     {
-      "n": 43,
-      "trilha": 4,
+      "n": 44,
+      "trilha": 5,
       "id": "familia-tr",
       "titulo": "FAMÍLIA DO TR",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-43-familia-tr.json",
+      "arquivo": "conteudo/etapa-44-familia-tr.json",
       "disponivel": true,
       "silabas": [
         "TRA",
@@ -634,12 +643,12 @@
       "titulo_fala": "as sílabas com {l:T} e {l:R}"
     },
     {
-      "n": 44,
-      "trilha": 4,
+      "n": 45,
+      "trilha": 5,
       "id": "familia-vr",
       "titulo": "FAMÍLIA DO VR",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-44-familia-vr.json",
+      "arquivo": "conteudo/etapa-45-familia-vr.json",
       "disponivel": true,
       "silabas": [
         "VRA",
@@ -651,22 +660,22 @@
       "titulo_fala": "as sílabas com {l:V} e {l:R}"
     },
     {
-      "n": 45,
-      "trilha": 5,
+      "n": 46,
+      "trilha": 6,
       "id": "revisao-6",
       "titulo": "MONTAR PALAVRAS 6",
       "icone": "🧱",
-      "arquivo": "conteudo/etapa-45-revisao-6.json",
+      "arquivo": "conteudo/etapa-46-revisao-6.json",
       "disponivel": true,
-      "desde": 37
+      "desde": 38
     },
     {
-      "n": 46,
-      "trilha": 4,
+      "n": 47,
+      "trilha": 5,
       "id": "familia-bl",
       "titulo": "FAMÍLIA DO BL",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-46-familia-bl.json",
+      "arquivo": "conteudo/etapa-47-familia-bl.json",
       "disponivel": true,
       "silabas": [
         "BLA",
@@ -678,12 +687,12 @@
       "titulo_fala": "as sílabas com {l:B} e {l:L}"
     },
     {
-      "n": 47,
-      "trilha": 4,
+      "n": 48,
+      "trilha": 5,
       "id": "familia-cl",
       "titulo": "FAMÍLIA DO CL",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-47-familia-cl.json",
+      "arquivo": "conteudo/etapa-48-familia-cl.json",
       "disponivel": true,
       "silabas": [
         "CLA",
@@ -695,12 +704,12 @@
       "titulo_fala": "as sílabas com {l:C} e {l:L}"
     },
     {
-      "n": 48,
-      "trilha": 4,
+      "n": 49,
+      "trilha": 5,
       "id": "familia-fl",
       "titulo": "FAMÍLIA DO FL",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-48-familia-fl.json",
+      "arquivo": "conteudo/etapa-49-familia-fl.json",
       "disponivel": true,
       "silabas": [
         "FLA",
@@ -712,12 +721,12 @@
       "titulo_fala": "as sílabas com {l:F} e {l:L}"
     },
     {
-      "n": 49,
-      "trilha": 4,
+      "n": 50,
+      "trilha": 5,
       "id": "familia-gl",
       "titulo": "FAMÍLIA DO GL",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-49-familia-gl.json",
+      "arquivo": "conteudo/etapa-50-familia-gl.json",
       "disponivel": true,
       "silabas": [
         "GLA",
@@ -729,12 +738,12 @@
       "titulo_fala": "as sílabas com {l:G} e {l:L}"
     },
     {
-      "n": 50,
-      "trilha": 4,
+      "n": 51,
+      "trilha": 5,
       "id": "familia-pl",
       "titulo": "FAMÍLIA DO PL",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-50-familia-pl.json",
+      "arquivo": "conteudo/etapa-51-familia-pl.json",
       "disponivel": true,
       "silabas": [
         "PLA",
@@ -746,22 +755,22 @@
       "titulo_fala": "as sílabas com {l:P} e {l:L}"
     },
     {
-      "n": 51,
-      "trilha": 5,
+      "n": 52,
+      "trilha": 6,
       "id": "revisao-7",
       "titulo": "MONTAR PALAVRAS 7",
       "icone": "🧱",
-      "arquivo": "conteudo/etapa-51-revisao-7.json",
+      "arquivo": "conteudo/etapa-52-revisao-7.json",
       "disponivel": true,
-      "desde": 46
+      "desde": 47
     },
     {
-      "n": 52,
-      "trilha": 4,
+      "n": 53,
+      "trilha": 5,
       "id": "ditongos",
       "titulo": "DITONGOS",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-52-ditongos.json",
+      "arquivo": "conteudo/etapa-53-ditongos.json",
       "disponivel": true,
       "silabas": [
         "AI",
@@ -779,12 +788,12 @@
       ]
     },
     {
-      "n": 53,
-      "trilha": 4,
+      "n": 54,
+      "trilha": 5,
       "id": "final-r",
       "titulo": "SÍLABAS COM R NO FIM",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-53-final-r.json",
+      "arquivo": "conteudo/etapa-54-final-r.json",
       "disponivel": true,
       "silabas": [
         "AR",
@@ -799,12 +808,12 @@
       ]
     },
     {
-      "n": 54,
-      "trilha": 4,
+      "n": 55,
+      "trilha": 5,
       "id": "final-l",
       "titulo": "SÍLABAS COM L NO FIM",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-54-final-l.json",
+      "arquivo": "conteudo/etapa-55-final-l.json",
       "disponivel": true,
       "silabas": [
         "AL",
@@ -819,12 +828,12 @@
       ]
     },
     {
-      "n": 55,
-      "trilha": 4,
+      "n": 56,
+      "trilha": 5,
       "id": "final-s",
       "titulo": "SÍLABAS COM S NO FIM",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-55-final-s.json",
+      "arquivo": "conteudo/etapa-56-final-s.json",
       "disponivel": true,
       "silabas": [
         "AS",
@@ -839,12 +848,12 @@
       ]
     },
     {
-      "n": 56,
-      "trilha": 4,
+      "n": 57,
+      "trilha": 5,
       "id": "nasais-m",
       "titulo": "SÍLABAS COM M NO FIM",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-56-nasais-m.json",
+      "arquivo": "conteudo/etapa-57-nasais-m.json",
       "disponivel": true,
       "silabas": [
         "AM",
@@ -859,12 +868,12 @@
       ]
     },
     {
-      "n": 57,
-      "trilha": 4,
+      "n": 58,
+      "trilha": 5,
       "id": "nasais-n",
       "titulo": "SÍLABAS COM N NO FIM",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-57-nasais-n.json",
+      "arquivo": "conteudo/etapa-58-nasais-n.json",
       "disponivel": true,
       "silabas": [
         "AN",
@@ -879,12 +888,12 @@
       ]
     },
     {
-      "n": 58,
-      "trilha": 4,
+      "n": 59,
+      "trilha": 5,
       "id": "til",
       "titulo": "SÍLABAS COM TIL",
       "icone": "🧩",
-      "arquivo": "conteudo/etapa-58-til.json",
+      "arquivo": "conteudo/etapa-59-til.json",
       "disponivel": true,
       "silabas": [
         "ÃO",
@@ -898,112 +907,112 @@
       ]
     },
     {
-      "n": 59,
-      "trilha": 5,
+      "n": 60,
+      "trilha": 6,
       "id": "revisao-8",
       "titulo": "MONTAR PALAVRAS 8",
       "icone": "🧱",
-      "arquivo": "conteudo/etapa-59-revisao-8.json",
+      "arquivo": "conteudo/etapa-60-revisao-8.json",
       "disponivel": true,
-      "desde": 52
-    },
-    {
-      "n": 60,
-      "trilha": 6,
-      "id": "palavras-da-vida",
-      "titulo": "PALAVRAS DA VIDA",
-      "icone": "🏡",
-      "arquivo": "conteudo/etapa-60-palavras-da-vida.json",
-      "disponivel": true
+      "desde": 53
     },
     {
       "n": 61,
-      "trilha": 7,
-      "id": "frases-1",
-      "titulo": "FRASES CURTAS 1",
-      "icone": "💬",
-      "arquivo": "conteudo/etapa-61-frases-1.json",
+      "trilha": 6,
+      "id": "criar-palavras",
+      "titulo": "CRIAR PALAVRAS",
+      "icone": "🧱",
+      "arquivo": "conteudo/etapa-61-criar-palavras.json",
       "disponivel": true
     },
     {
       "n": 62,
       "trilha": 7,
-      "id": "frases-2",
-      "titulo": "FRASES CURTAS 2",
+      "id": "frases-1",
+      "titulo": "FRASES CURTAS 1",
       "icone": "💬",
-      "arquivo": "conteudo/etapa-62-frases-2.json",
+      "arquivo": "conteudo/etapa-62-frases-1.json",
       "disponivel": true
     },
     {
       "n": 63,
-      "trilha": 8,
-      "id": "tracar-1",
-      "titulo": "TRAÇAR LETRAS 1",
-      "icone": "✏️",
-      "arquivo": "conteudo/etapa-63-tracar-1.json",
+      "trilha": 7,
+      "id": "frases-2",
+      "titulo": "FRASES CURTAS 2",
+      "icone": "💬",
+      "arquivo": "conteudo/etapa-63-frases-2.json",
       "disponivel": true
     },
     {
       "n": 64,
       "trilha": 8,
-      "id": "tracar-2",
-      "titulo": "TRAÇAR LETRAS 2",
+      "id": "tracar-1",
+      "titulo": "TRAÇAR LETRAS 1",
       "icone": "✏️",
-      "arquivo": "conteudo/etapa-64-tracar-2.json",
+      "arquivo": "conteudo/etapa-64-tracar-1.json",
       "disponivel": true
     },
     {
       "n": 65,
       "trilha": 8,
-      "id": "tracar-3",
-      "titulo": "TRAÇAR LETRAS 3",
+      "id": "tracar-2",
+      "titulo": "TRAÇAR LETRAS 2",
       "icone": "✏️",
-      "arquivo": "conteudo/etapa-65-tracar-3.json",
+      "arquivo": "conteudo/etapa-65-tracar-2.json",
       "disponivel": true
     },
     {
       "n": 66,
       "trilha": 8,
-      "id": "tracar-4",
-      "titulo": "TRAÇAR LETRAS 4",
+      "id": "tracar-3",
+      "titulo": "TRAÇAR LETRAS 3",
       "icone": "✏️",
-      "arquivo": "conteudo/etapa-66-tracar-4.json",
+      "arquivo": "conteudo/etapa-66-tracar-3.json",
       "disponivel": true
     },
     {
       "n": 67,
       "trilha": 8,
-      "id": "tracar-5",
-      "titulo": "TRAÇAR LETRAS 5",
+      "id": "tracar-4",
+      "titulo": "TRAÇAR LETRAS 4",
       "icone": "✏️",
-      "arquivo": "conteudo/etapa-67-tracar-5.json",
+      "arquivo": "conteudo/etapa-67-tracar-4.json",
       "disponivel": true
     },
     {
       "n": 68,
       "trilha": 8,
-      "id": "ler-em-voz-alta",
-      "titulo": "LER EM VOZ ALTA",
-      "icone": "🗣️",
-      "arquivo": "conteudo/etapa-68-ler-em-voz-alta.json",
+      "id": "tracar-5",
+      "titulo": "TRAÇAR LETRAS 5",
+      "icone": "✏️",
+      "arquivo": "conteudo/etapa-68-tracar-5.json",
       "disponivel": true
     },
     {
       "n": 69,
       "trilha": 8,
-      "id": "ditado-1",
-      "titulo": "DITADO 1",
-      "icone": "📝",
-      "arquivo": "conteudo/etapa-69-ditado-1.json",
+      "id": "ler-em-voz-alta",
+      "titulo": "LER EM VOZ ALTA",
+      "icone": "🗣️",
+      "arquivo": "conteudo/etapa-69-ler-em-voz-alta.json",
       "disponivel": true
     },
     {
       "n": 70,
       "trilha": 8,
+      "id": "ditado-1",
+      "titulo": "DITADO 1",
+      "icone": "📝",
+      "arquivo": "conteudo/etapa-70-ditado-1.json",
+      "disponivel": true
+    },
+    {
+      "n": 71,
+      "trilha": 8,
       "id": "ditado-2",
       "titulo": "DITADO 2",
       "icone": "📝",
-      "arquivo": "conteudo/etapa-70-ditado-2.json",
+      "arquivo": "conteudo/etapa-71-ditado-2.json",
       "disponivel": true
     }
   ]

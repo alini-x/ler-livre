@@ -1,0 +1,67 @@
+{
+  "etapa": 59,
+  "id": "til",
+  "titulo": "SÍLABAS COM TIL",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender as sílabas com til. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.66
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🦁",
+      "texto": "ÃO ÃE ÕE",
+      "subtexto": "",
+      "fala": "{s:ÃO}, {s:ÃE}, {s:ÕE}.",
+      "instrucao": "OLHE E OUÇA: SÍLABAS COM TIL"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:ÃO}.",
+      "dica": "Procure a sílaba {s:ÃO}.",
+      "opcoes": [
+        "ÃO",
+        "ÕE",
+        "ÃE"
+      ],
+      "correta": "ÃO",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:ÃE}.",
+      "dica": "Procure a sílaba {s:ÃE}.",
+      "opcoes": [
+        "ÃE",
+        "ÕE",
+        "ÃO"
+      ],
+      "correta": "ÃE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:ÕE}.",
+      "dica": "Procure a sílaba {s:ÕE}.",
+      "opcoes": [
+        "ÕE",
+        "ÃE",
+        "ÃO"
+      ],
+      "correta": "ÕE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "ÃO",
+    "ÃE",
+    "ÕE"
+  ],
+  "titulo_fala": "as sílabas com til"
+}

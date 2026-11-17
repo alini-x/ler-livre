@@ -1,0 +1,93 @@
+{
+  "etapa": 15,
+  "id": "familia-l",
+  "titulo": "FAMÍLIA DO L",
+  "icone": "🧩",
+  "fala_inicial": "Vamos aprender a família do {l:L}. Olhe e ouça as sílabas. Depois toque na sílaba que você ouvir.",
+  "texto_inicial": "OLHE E OUÇA AS SÍLABAS. DEPOIS TOQUE NA SÍLABA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas sílabas.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🌙",
+      "texto": "LA LE LI LO LU",
+      "subtexto": "",
+      "fala": "{s:LA}, {s:LE}, {s:LI}, {s:LO}, {s:LU}.",
+      "instrucao": "OLHE E OUÇA: FAMÍLIA DO L"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:LA}.",
+      "dica": "Procure a sílaba {s:LA}.",
+      "opcoes": [
+        "LA",
+        "LU",
+        "LE"
+      ],
+      "correta": "LA",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:LE}.",
+      "dica": "Procure a sílaba {s:LE}.",
+      "opcoes": [
+        "LE",
+        "LU",
+        "LA"
+      ],
+      "correta": "LE",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:LI}.",
+      "dica": "Procure a sílaba {s:LI}.",
+      "opcoes": [
+        "LI",
+        "LO",
+        "LA"
+      ],
+      "correta": "LI",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:LO}.",
+      "dica": "Procure a sílaba {s:LO}.",
+      "opcoes": [
+        "LO",
+        "LE",
+        "LI"
+      ],
+      "correta": "LO",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na sílaba {s:LU}.",
+      "dica": "Procure a sílaba {s:LU}.",
+      "opcoes": [
+        "LU",
+        "LI",
+        "LE"
+      ],
+      "correta": "LU",
+      "instrucao": "OUÇA E TOQUE NA SÍLABA CERTA"
+    },
+    {
+      "fonte": "palavras-da-pessoa"
+    }
+  ],
+  "silabas": [
+    "LA",
+    "LE",
+    "LI",
+    "LO",
+    "LU"
+  ],
+  "titulo_fala": "a família do {l:L}"
+}

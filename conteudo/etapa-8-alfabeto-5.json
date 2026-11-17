@@ -1,0 +1,134 @@
+{
+  "etapa": 8,
+  "id": "alfabeto-5",
+  "titulo": "ALFABETO 5: U V W X Y Z",
+  "icone": "🔠",
+  "fala_inicial": "Vamos conhecer as letras. Primeiro olhe e ouça cada letra. Depois toque na letra que você ouvir.",
+  "texto_inicial": "PRIMEIRO OLHE E OUÇA CADA LETRA. DEPOIS TOQUE NA LETRA QUE VOCÊ OUVIR.",
+  "fala_fim": "Muito bem! Você aprendeu estas letras.",
+  "criterio": {
+    "acertosDePrimeira": 0.8
+  },
+  "atividades": [
+    {
+      "tipo": "apresentar",
+      "figura": "🍇",
+      "texto": "U",
+      "subtexto": "UVA",
+      "fala": "{l:U}, de uva.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🐄",
+      "texto": "V",
+      "subtexto": "VACA",
+      "fala": "{l:V}, de vaca.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🧇",
+      "texto": "W",
+      "subtexto": "WAFFLE",
+      "fala": "{l:W}, de waffle.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "☕",
+      "texto": "X",
+      "subtexto": "XÍCARA",
+      "fala": "{l:X}, de xícara.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🧘",
+      "texto": "Y",
+      "subtexto": "YOGA",
+      "fala": "{l:Y}, de yoga.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "apresentar",
+      "figura": "🦓",
+      "texto": "Z",
+      "subtexto": "ZEBRA",
+      "fala": "{l:Z}, de zebra.",
+      "instrucao": "OLHE E OUÇA A LETRA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:U}.",
+      "dica": "Procure a letra {l:U}.",
+      "opcoes": [
+        "U",
+        "X",
+        "Y"
+      ],
+      "correta": "U",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:V}.",
+      "dica": "Procure a letra {l:V}.",
+      "opcoes": [
+        "V",
+        "X",
+        "U"
+      ],
+      "correta": "V",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:W}.",
+      "dica": "Procure a letra {l:W}.",
+      "opcoes": [
+        "W",
+        "U",
+        "Y"
+      ],
+      "correta": "W",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:X}.",
+      "dica": "Procure a letra {l:X}.",
+      "opcoes": [
+        "X",
+        "Y",
+        "Z"
+      ],
+      "correta": "X",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:Y}.",
+      "dica": "Procure a letra {l:Y}.",
+      "opcoes": [
+        "Y",
+        "V",
+        "W"
+      ],
+      "correta": "Y",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    },
+    {
+      "tipo": "ouvir-e-tocar",
+      "fala": "Toque na letra {l:Z}.",
+      "dica": "Procure a letra {l:Z}.",
+      "opcoes": [
+        "Z",
+        "Y",
+        "W"
+      ],
+      "correta": "Z",
+      "instrucao": "OUÇA E TOQUE NA LETRA CERTA"
+    }
+  ]
+}

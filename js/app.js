@@ -23,8 +23,8 @@ let trilha, letras, vocabulario, frasesBase, falasSilabas, estado, nome, etapa, 
 let concluidas = new Set(), revisando = false, modoTeste = null;
 const falhasEtapa = {};   // rodadas seguidas sem atingir o critério, por etapa (só nesta abertura do app)
 const GRUPOS = [
-  { g: 1, titulo: 'VOGAIS', icone: '🔤' }, { g: 2, titulo: 'MEU NOME', icone: '🪪' }, { g: 3, titulo: 'ALFABETO', icone: '🔠' }, { g: 4, titulo: 'SÍLABAS', icone: '🧩' },
-  { g: 5, titulo: 'MONTAR PALAVRAS', icone: '🧱' }, { g: 6, titulo: 'PALAVRAS DA VIDA', icone: '🏡' }, { g: 7, titulo: 'FRASES', icone: '💬' }, { g: 8, titulo: 'LER E ESCREVER', icone: '✏️' }
+  { g: 1, titulo: 'VOGAIS', icone: '🔤' }, { g: 2, titulo: 'MEU NOME', icone: '🪪' }, { g: 3, titulo: 'PALAVRAS DA VIDA', icone: '🏡' }, { g: 4, titulo: 'ALFABETO', icone: '🔠' },
+  { g: 5, titulo: 'SÍLABAS', icone: '🧩' }, { g: 6, titulo: 'MONTAR PALAVRAS', icone: '🧱' }, { g: 7, titulo: 'FRASES', icone: '💬' }, { g: 8, titulo: 'LER E ESCREVER', icone: '✏️' }
 ];
 let audioCtx;
 

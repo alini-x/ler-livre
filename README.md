@@ -80,7 +80,7 @@ SOARES, Magda. *Alfabetização: a questão dos métodos*. São Paulo: Contexto,
 
 ## O que o app faz
 
-- **Trilha de 70 etapas**, em 8 grupos: vogais, meu nome, alfabeto, sílabas, montar palavras, palavras da vida, frases e ler e escrever. As sílabas vão de B, C, D... até CH, LH, NH, RR, Ç, encontros (BR, PL...), ditongos, finais (R, L, S, M, N) e til.
+- **Trilha de 71 etapas**, em 8 grupos: vogais, meu nome, palavras da vida, alfabeto, sílabas, montar palavras, frases e ler e escrever. As palavras da vida (as da própria pessoa) vêm logo depois do nome. As sílabas vão de B, C, D... até CH, LH, NH, RR, Ç, encontros (BR, PL...), ditongos, finais (R, L, S, M, N) e til.
 - **Atividades**: olhar e ouvir, ouvir e tocar, montar com letras ou sílabas, ordenar frases, criar palavras novas, traçar letras com o dedo, ler em voz alta e ditado.
 - **Vocabulário escalável**: 237 palavras com sílabas e figura (emoji). Uma palavra só aparece depois que **todas as suas sílabas** foram ensinadas.
 - **Sem becos sem saída**: o botão 🏠 volta ao início em qualquer tela, o botão Voltar do Android também, e depois de várias tentativas sem acertar aparece "PULAR". Só a mediadora, com confirmação, apaga o progresso.
@@ -159,7 +159,6 @@ Nenhum dado sai do aparelho, a não ser que a mediadora exporte o progresso ou i
 ## Próximos passos
 
 - Comparar a trilha com a literatura recente e validá-la com educadores.
-- Antecipar a etapa "Palavras da vida" (hoje a 60 de 70) para partir das palavras da pessoa.
 - Ajustar o limite do traçar (60% de cobertura da letra) com uso real.
 - Rodar o teste de ponta a ponta no CI.
 

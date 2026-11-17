@@ -1,0 +1,21 @@
+{
+  "etapa": 61,
+  "id": "criar-palavras",
+  "titulo": "CRIAR PALAVRAS",
+  "icone": "🧱",
+  "fala_inicial": "Agora crie palavras novas com as sílabas que você já aprendeu.",
+  "texto_inicial": "CRIE PALAVRAS NOVAS COM AS SÍLABAS.",
+  "fala_fim": "Muito bem! Você criou palavras novas.",
+  "criterio": {
+    "concluiAoTerminar": true
+  },
+  "atividades": [
+    {
+      "tipo": "criar-palavras",
+      "fonte": "vocabulario",
+      "fala": "Agora crie palavras novas. Olhe as figuras e toque nas sílabas para formar cada palavra. Depois toque no botão roxo.",
+      "instrucao": "TOQUE NAS SÍLABAS PARA FORMAR PALAVRAS, DEPOIS TOQUE NO ✔"
+    }
+  ],
+  "requerPalavras": true
+}

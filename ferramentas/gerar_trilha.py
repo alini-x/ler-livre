@@ -54,9 +54,14 @@ etapa(n,'meu-nome','MEU NOME','🪪',"Agora vamos ver o seu nome.","VAMOS TRABAL
   {"tipo":"montar","fonte":"nome","dicas":False,"fala":"Monte o seu nome mais uma vez.","dica":"Tente outra letra.","instrucao":"MONTE O SEU NOME DE NOVO, SEM AJUDA"}],{"concluiAoTerminar":True},requerNome=True,
  distratores=["ANA","JOÃO","MARIA","PEDRO","JOSÉ","CARLA","LUCAS","ROSA","PAULO","LÚCIA"])
 
-# 3 alfabeto
+# palavras da vida: logo depois do nome, a partir das palavras da pessoa
+n=reg(3,'palavras-da-vida','PALAVRAS DA VIDA','🏡')
+etapa(n,'palavras-da-vida','PALAVRAS DA VIDA','🏡',"Agora vamos ver as palavras da sua vida. Olhe, ouça e monte com as sílabas.","OLHE, OUÇA E MONTE AS PALAVRAS DA SUA VIDA.","Muito bem! Você montou as palavras da sua vida.",
+ [{"fonte":"palavras-da-vida"}],{"concluiAoTerminar":True},requerPalavras=True)
+
+# 4 alfabeto
 for i,b in enumerate(['ABCDE','FGHIJ','KLMNO','PQRST','UVWXYZ']):
-    n=reg(3,f'alfabeto-{i+1}',f'ALFABETO {i+1}','🔠'); acts=[]
+    n=reg(4,f'alfabeto-{i+1}',f'ALFABETO {i+1}','🔠'); acts=[]
     for X in b:
         p,f=alfa[X]; acts.append({"tipo":"apresentar","figura":f,"texto":X,"subtexto":p,"fala":f"{L(X)}, de {p.lower()}.","instrucao":"OLHE E OUÇA A LETRA"})
     for X in b:
@@ -68,7 +73,7 @@ for i,b in enumerate(['ABCDE','FGHIJ','KLMNO','PQRST','UVWXYZ']):
 def familia(id_,titulo,sils,fig,finais=None,tit_fala=None):
     # O título aparece escrito em maiúsculas, mas é FALADO a partir de titulo_fala (com marcadores): a voz soletra "gue", "nh" etc.
     tf=tit_fala or titulo.lower()
-    n=reg(4,id_,titulo,'🧩',{"silabas":sils,"titulo_fala":tf,**({"finais":finais} if finais else {})})
+    n=reg(5,id_,titulo,'🧩',{"silabas":sils,"titulo_fala":tf,**({"finais":finais} if finais else {})})
     acts=[{"tipo":"apresentar","figura":fig,"texto":' '.join(sils),"subtexto":"","fala":', '.join(S(s) for s in sils)+'.',"instrucao":f"OLHE E OUÇA: {titulo}"}]
     for s in sils:
         o=[x for x in sils if x!=s]; random.shuffle(o)
@@ -78,7 +83,7 @@ def familia(id_,titulo,sils,fig,finais=None,tit_fala=None):
 def revisao(qtd=8,tipo_id='montar-palavras'):
     desde=max([e['n'] for e in trilha if e['id'].startswith('revisao')]+[0])+1
     k=len([e for e in trilha if e['id'].startswith('revisao')])+1
-    n=reg(5,f'revisao-{k}',f'MONTAR PALAVRAS {k}','🧱',{"desde":desde})
+    n=reg(6,f'revisao-{k}',f'MONTAR PALAVRAS {k}','🧱',{"desde":desde})
     etapa(n,f'revisao-{k}',f'MONTAR PALAVRAS {k}','🧱',"Agora vamos montar palavras. Olhe a figura e toque nas sílabas, na ordem.","OLHE A FIGURA E TOQUE NAS SÍLABAS, NA ORDEM, PARA FORMAR A PALAVRA.","Muito bem! Você montou as palavras.",
       [{"fonte":"vocabulario","tipo":"montar","quantidade":qtd}],{"acertosDePrimeira":0.66})
 def fam_simples(c,vs,fig):
@@ -112,10 +117,11 @@ familia('nasais-n','SÍLABAS COM N NO FIM',['AN','EN','IN','ON','UN'],'🦷',fin
 familia('til','SÍLABAS COM TIL',['ÃO','ÃE','ÕE'],'🦁',finais=['O','E'],tit_fala='as sílabas com til')
 revisao(10)
 
-# palavras da vida, frases, escrita
-n=reg(6,'palavras-da-vida','PALAVRAS DA VIDA','🏡')
-etapa(n,'palavras-da-vida','PALAVRAS DA VIDA','🏡',"Agora vamos ver as palavras da sua vida. Olhe, ouça e monte com as sílabas. No fim, você cria palavras novas.","OLHE, OUÇA E MONTE AS PALAVRAS DA SUA VIDA. NO FIM, CRIE PALAVRAS NOVAS COM AS SÍLABAS.","Muito bem! Você criou palavras novas.",
- [{"fonte":"palavras-da-vida"},{"tipo":"criar-palavras","fonte":"vocabulario","fala":"Agora crie palavras novas. Olhe as figuras e toque nas sílabas para formar cada palavra. Depois toque no botão roxo.","instrucao":"TOQUE NAS SÍLABAS PARA FORMAR PALAVRAS, DEPOIS TOQUE NO ✔"}],{"concluiAoTerminar":True},requerPalavras=True)
+# criar palavras novas com as sílabas já aprendidas, depois da última revisão
+n=reg(6,'criar-palavras','CRIAR PALAVRAS','🧱')
+etapa(n,'criar-palavras','CRIAR PALAVRAS','🧱',"Agora crie palavras novas com as sílabas que você já aprendeu.","CRIE PALAVRAS NOVAS COM AS SÍLABAS.","Muito bem! Você criou palavras novas.",
+ [{"tipo":"criar-palavras","fonte":"vocabulario","fala":"Agora crie palavras novas. Olhe as figuras e toque nas sílabas para formar cada palavra. Depois toque no botão roxo.","instrucao":"TOQUE NAS SÍLABAS PARA FORMAR PALAVRAS, DEPOIS TOQUE NO ✔"}],{"concluiAoTerminar":True},requerPalavras=True)
+# frases, escrita
 for k in (1,2):
     n=reg(7,f'frases-{k}',f'FRASES CURTAS {k}','💬')
     etapa(n,f'frases-{k}',f'FRASES CURTAS {k}','💬',"Agora vamos formar frases. Toque nas palavras, na ordem, e depois ouça a frase.","TOQUE NAS PALAVRAS, NA ORDEM, PARA FORMAR A FRASE.","Muito bem! Você formou frases.",
